@@ -1443,33 +1443,6 @@
       </tags>
   </entry>
   <entry>
-    <title>订单式购买对应采购单交货未齐处置方法</title>
-    <url>/2022/01/10/WF/wf202201/</url>
-    <content><![CDATA[<h1 id="订单式购买对应采购单交货未齐处置方法"><a href="#订单式购买对应采购单交货未齐处置方法" class="headerlink" title="订单式购买对应采购单交货未齐处置方法"></a>订单式购买对应采购单交货未齐处置方法</h1><mark class="hl-label pink">建议外厂销售订单备注采购订单号及行号！</mark> 
-<div class="mermaid-wrap"><pre class="mermaid-src" hidden>
-  graph LR;
-    客户销售订单--&gt;采购订单;
-    采购订单-- 收货 --&gt;仓库401-01;
-    客户销售订单-- 出货 --&gt;仓库401-01;
-    采购订单-- 差数 --&gt;外厂销售订单;
-    外厂销售订单-- 出货 --&gt;仓库401-05;
-    仓库401-05--&gt;采购订单;
-  </pre></div>
-
-
-
-]]></content>
-      <categories>
-        <category>外发</category>
-      </categories>
-      <tags>
-        <tag>erp</tag>
-        <tag>epicor</tag>
-        <tag>PMC</tag>
-        <tag>外发</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>有关单位换算比例与实际差异相关问题</title>
     <url>/2022/08/03/FIN/fin20220803/</url>
     <content><![CDATA[<h1 id="有关单位换算比例与实际差异相关问题"><a href="#有关单位换算比例与实际差异相关问题" class="headerlink" title="有关单位换算比例与实际差异相关问题"></a>有关单位换算比例与实际差异相关问题</h1><blockquote>
@@ -1520,6 +1493,33 @@
         <tag>epicor</tag>
         <tag>工程</tag>
         <tag>采购</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>订单式购买对应采购单交货未齐处置方法</title>
+    <url>/2022/01/10/WF/wf202201/</url>
+    <content><![CDATA[<h1 id="订单式购买对应采购单交货未齐处置方法"><a href="#订单式购买对应采购单交货未齐处置方法" class="headerlink" title="订单式购买对应采购单交货未齐处置方法"></a>订单式购买对应采购单交货未齐处置方法</h1><mark class="hl-label pink">建议外厂销售订单备注采购订单号及行号！</mark> 
+<div class="mermaid-wrap"><pre class="mermaid-src" hidden>
+  graph LR;
+    客户销售订单--&gt;采购订单;
+    采购订单-- 收货 --&gt;仓库401-01;
+    客户销售订单-- 出货 --&gt;仓库401-01;
+    采购订单-- 差数 --&gt;外厂销售订单;
+    外厂销售订单-- 出货 --&gt;仓库401-05;
+    仓库401-05--&gt;采购订单;
+  </pre></div>
+
+
+
+]]></content>
+      <categories>
+        <category>外发</category>
+      </categories>
+      <tags>
+        <tag>erp</tag>
+        <tag>epicor</tag>
+        <tag>PMC</tag>
+        <tag>外发</tag>
       </tags>
   </entry>
   <entry>
