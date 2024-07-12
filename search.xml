@@ -1,142 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>如何发掘企业管理的瓶颈</title>
-    <url>/2022/01/28/Admin/ad20220128/</url>
-    <content><![CDATA[<blockquote>
-<h1 id="如何发掘企业管理的瓶颈？"><a href="#如何发掘企业管理的瓶颈？" class="headerlink" title="如何发掘企业管理的瓶颈？"></a>如何发掘企业管理的瓶颈？</h1><table>
-<thead>
-<tr>
-<th align="left"></th>
-<th align="left">P(效率)</th>
-<th align="left">Q(品质)</th>
-<th align="left">C(成本)</th>
-<th align="left">D(交期)</th>
-<th align="left">S(安全)</th>
-<th align="left">M(土气)</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left"><strong>人</strong></td>
-<td align="left"><mark class="hl-label pink">人均产值</mark> <br>生产效率</td>
-<td align="left">管理技能<br>工作品质</td>
-<td align="left"></td>
-<td align="left"></td>
-<td align="left">安全事故<br>发生次数</td>
-<td align="left">工作激情<br><mark class="hl-label pink">员工离职率</mark> <br>员工出勤率</td>
-</tr>
-<tr>
-<td align="left"><strong>机</strong></td>
-<td align="left"><mark class="hl-label pink">设备稼动率</mark> </td>
-<td align="left">设备故障停机率</td>
-<td align="left"></td>
-<td align="left"></td>
-<td align="left">安全事故<br>发生次数</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left"><strong>料</strong></td>
-<td align="left">销售目标达成率</td>
-<td align="left">进料检验批合格率<br>制程不良率<br> <mark class="hl-label pink">成品检验批合格率</mark> <br>客户退货金额比率</td>
-<td align="left"><mark class="hl-label pink">库存周转率</mark> <br>材料损耗率<br>呆料占库存<br>金额比例</td>
-<td align="left"><mark class="hl-label pink">客户订单</mark> <br><mark class="hl-label pink">交货准时率</mark> <br>采购订单<br>交货准时率</td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left"><strong>法</strong></td>
-<td align="left">应收帐款回收率<br>产能利用率</td>
-<td align="left">客户投诉件数<br><mark class="hl-label pink">料帐准确率</mark> </td>
-<td align="left">行销费用占<br>销售金额比例</td>
-<td align="left">生产计划<br>及时完成率</td>
-<td align="left"></td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left"><strong>环</strong></td>
-<td align="left"></td>
-<td align="left"></td>
-<td align="left"></td>
-<td align="left"></td>
-<td align="left"><mark class="hl-label pink">5S执行成效</mark> </td>
-<td align="left"></td>
-</tr>
-</tbody></table>
-</blockquote>
-<blockquote>
-<h2 id="备注"><a href="#备注" class="headerlink" title="备注"></a>备注</h2><blockquote>
- <mark class="hl-label pink">1.人均产值</mark> 
-<p>$$ \scr 人均产值&#x3D;\frac{企业产品总产量 \times 成本价}{\frac{期初员工数 + 期未员工数}{2}}$$</p>
-<h3 id=""><a href="#" class="headerlink" title=""></a><mark class="hl-label pink">2.员工离职率</mark> </h3><p>$$ \scr 员工离职率&#x3D;\frac{离职人数}{最后一名离职员工前的员工总数}$$</p>
-<h3 id="-1"><a href="#-1" class="headerlink" title=""></a><mark class="hl-label pink">3.设备稼动率</mark> </h3><h4 id="3-1-设备完好率"><a href="#3-1-设备完好率" class="headerlink" title="3.1 设备完好率"></a>3.1 设备完好率</h4><p>$$ \scr 设备完好率&#x3D; [1-\frac{设备故障停止时间}{日历工作时间-计划内停机时间}] \times 100 \% $$</p>
-<h4 id="3-2-设备负荷时间利用率"><a href="#3-2-设备负荷时间利用率" class="headerlink" title="3.2 设备负荷时间利用率"></a>3.2 设备负荷时间利用率</h4><p>$$ \scr 设备负荷时间利用率&#x3D; \frac{日历工作时间-计划内停机时间-计划外停机时间}{日历工作时间-计划内停机时间} \times 100 \% $$</p>
-<h4 id="3-3-设备综合效率"><a href="#3-3-设备综合效率" class="headerlink" title="3.3 设备综合效率"></a>3.3 设备综合效率</h4><p>$$ \scr 设备综合效率&#x3D; 设备完好率 \times 性能开动率 \times 合格品率 \times 100 \% $$<br>$$ \scr 性能开动率&#x3D; \frac{理论工作时间}{实际工作时间-停机时间} \times 100 \% $$<br>$$ \scr 合格品率&#x3D; \frac{生产总数-不良品数}{生产总数} \times 100 \% $$</p>
-<h3 id="-2"><a href="#-2" class="headerlink" title=""></a><mark class="hl-label pink">4.库存周转率</mark> </h3><h4 id="4-1-以成本为基础，反映企业流动资产的流动性，主要用于流动性分析。"><a href="#4-1-以成本为基础，反映企业流动资产的流动性，主要用于流动性分析。" class="headerlink" title="4.1 以成本为基础，反映企业流动资产的流动性，主要用于流动性分析。"></a>4.1 以成本为基础，反映企业流动资产的流动性，主要用于流动性分析。</h4><p>$$ \scr 成本基础的存货周转次数&#x3D;销货成本&#x3D; \frac{营业成本}{存货平均余额}  $$</p>
-<h4 id="4-2-以收入为基础，主要用于获利能力分析。"><a href="#4-2-以收入为基础，主要用于获利能力分析。" class="headerlink" title="4.2 以收入为基础，主要用于获利能力分析。"></a>4.2 以收入为基础，主要用于获利能力分析。</h4><p>$$ \scr 收入基础的存货周转次数&#x3D; \frac{营业收入}{\frac{期初存货+期末存货}{2}}  $$<br>$$ \scr 期末存货&#x3D;流动资产-速动资产&#x3D;流动负债 \times（流动比率-速动比率）  $$<br>$$ \scr 收入基础的存货周转次数 - 成本基础的存货周转次数&#x3D;\frac{毛利}{存货平均余额}  $$</p>
-<h4 id="4-3-通过存货周转天数计算。"><a href="#4-3-通过存货周转天数计算。" class="headerlink" title="4.3 通过存货周转天数计算。"></a>4.3 通过存货周转天数计算。</h4><p>$$ \scr 存货周转率&#x3D;\frac{计算期天数（365）}{存货周转天数}  $$</p>
-<h3 id="-3"><a href="#-3" class="headerlink" title=""></a><mark class="hl-label pink">5.交货准时率</mark> </h3><p>$$ \scr 交货准时率&#x3D;\frac{按时交付订单的数量}{需要交付订单的数量} \times 100 \% $$</p>
-<h3 id="-4"><a href="#-4" class="headerlink" title=""></a><mark class="hl-label pink">6.成品检验批合格率</mark> </h3><p>$$ \scr 成品检验批合格率&#x3D;\frac{成品检验批合格的数量}{成品检验批的数量} \times 100 \% $$</p>
-<h3 id="-5"><a href="#-5" class="headerlink" title=""></a><mark class="hl-label pink">7.料帐准确率</mark> </h3><p>$$ \scr 料帐准确率&#x3D;\frac{实地盘存制库存数额}{永续盘存制库存数额} \times 100 \% $$</p>
-</blockquote>
-</blockquote>
-<blockquote>
-<h1 id="生产的七大浪费"><a href="#生产的七大浪费" class="headerlink" title="生产的七大浪费"></a>生产的七大浪费</h1><blockquote>
-<h3 id="-6"><a href="#-6" class="headerlink" title="   "></a><mark class="hl-label red">等待浪费</mark>  <mark class="hl-label blue">搬运浪费</mark>  <mark class="hl-label blue">不良浪费</mark>  <mark class="hl-label blue">动作浪费</mark> </h3><h3 id="-7"><a href="#-7" class="headerlink" title="  "></a><mark class="hl-label blue">加工浪费</mark>  <mark class="hl-label blue">库存浪费</mark>  <mark class="hl-label blue">制造过多/过早浪费</mark> </h3></blockquote>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Admin</category>
-      </categories>
-      <tags>
-        <tag>admin</tag>
-        <tag>erp</tag>
-        <tag>管理</tag>
-        <tag>Pmc</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>学道心经</title>
-    <url>/2022/02/05/Admin/ad20220205/</url>
-    <content><![CDATA[<h3 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h3><blockquote>
-<p>学之道，贵有恒；心先定，学后成。<br>书不洁，杂念生；坐不正，意已动。<br>耳不偏，目常从；早立规，心自恒。</p>
-</blockquote>
-<h3 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h3><blockquote>
-<p>父母心，盼成龙；琢大器，须从容。<br>教之切，易有偏；基不正，难承重。<br>学之始，贵习性；初学易，后难成。<br>习性定，规矩生；方有隅，圆有形。</p>
-</blockquote>
-<h3 id="第三章"><a href="#第三章" class="headerlink" title="第三章"></a>第三章</h3><blockquote>
-<p>学之力，在动机；好奇心，求知欲。<br>日观察，问问题；答其问，要仔细。<br>进取心，表现欲；常游戏，争第一。<br>从小起，多鼓励；常启发，重累积。<br>遇挫折，不放弃；磨砺深，始成器。</p>
-</blockquote>
-<h3 id="第四章"><a href="#第四章" class="headerlink" title="第四章"></a>第四章</h3><blockquote>
-<p>学之习，有三程；循序进，学艺精。<br>先预习，疑念生；多提问，理易明。<br>再听课，心神凝；做笔记，要工整。<br>师之言，书重点；己之思，释疑难。<br>后复习，建体系；推原理，重题例。</p>
-</blockquote>
-<h3 id="第五章"><a href="#第五章" class="headerlink" title="第五章"></a>第五章</h3><blockquote>
-<p>学之法，无常形；有规始，无规终。<br>眼有形，耳有声；心常思，手不停。<br>解题易，出题难；变角度，获益丰。<br>繁或难，有路经；一分三，简易生。<br>难记忆，多联想；被动弱，主动强。</p>
-</blockquote>
-<h3 id="第六章"><a href="#第六章" class="headerlink" title="第六章"></a>第六章</h3><blockquote>
-<p>学有感，感有功。<br>首框架，如象形；体系成，为大用。<br>再层次，分类同；条块出，意义清。<br>后逻辑，思因果；善推理，成悟性。<br>语感兴，在朗诵；常动口，意自明。</p>
-</blockquote>
-<h3 id="第七章"><a href="#第七章" class="headerlink" title="第七章"></a>第七章</h3><blockquote>
-<p>学有难，心勿乱；多诵读，题意现。<br>列已知，猜原理；设未知，助逻辑。<br>解之道，分过程；大题化，小题生。<br>自所求，找所需；前后行，逐步成。</p>
-</blockquote>
-<h3 id="第八章"><a href="#第八章" class="headerlink" title="第八章"></a>第八章</h3><blockquote>
-<p>学不前，必有因；曰无志，曰分心。<br>心无力，少意义；曰爱国，曰自尊。<br>学之心，不可分；听音乐，乱本根。<br>心有属，学难专；恋游戏，误长远。<br>苟不明，费光阴；青春逝，岂万金。</p>
-</blockquote>
-<h3 id="第九章"><a href="#第九章" class="headerlink" title="第九章"></a>第九章</h3><blockquote>
-<p>学有规，不可违；拔苗长，木难遂。<br>先知情，次晓义；再学文，后明理。<br>美生爱，为动力；四美者，当牢记。<br>自然一，人际二；科学三，艺术四。<br>一岁起，重情趣；至三岁，授仁义。<br>五岁后，可教文；及七岁，格数理。<br>小神童，大平庸；逾越过，覆辙中。</p>
-</blockquote>
-<h3 id="第十章"><a href="#第十章" class="headerlink" title="第十章"></a>第十章</h3><blockquote>
-<p>学有乐，亦有苦；苦生乐，始感悟。<br>强其心，弱其腹；延其乐，纳其苦。<br>有大爱，曰不仁；谨漠视，慎关注。<br>护子过，损其多；见小错，切莫乐。<br>知荣耀，守暗辱；自然心，若空谷。<br>修自身，可齐家；家和谐，子贤达。</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Admin</category>
-      </categories>
-      <tags>
-        <tag>学习</tag>
-        <tag>学道</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Fork 使用指南</title>
     <url>/2024/07/01/Book/Fork%E5%B8%AE%E5%8A%A9/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><pre><code>fork: 一款 git 可视化工具
@@ -582,8 +446,8 @@
         <category>Book</category>
       </categories>
       <tags>
-        <tag>erp</tag>
         <tag>管理会计</tag>
+        <tag>erp</tag>
         <tag>财务</tag>
       </tags>
   </entry>
@@ -1098,6 +962,142 @@
       </tags>
   </entry>
   <entry>
+    <title>如何发掘企业管理的瓶颈</title>
+    <url>/2022/01/28/Admin/ad20220128/</url>
+    <content><![CDATA[<blockquote>
+<h1 id="如何发掘企业管理的瓶颈？"><a href="#如何发掘企业管理的瓶颈？" class="headerlink" title="如何发掘企业管理的瓶颈？"></a>如何发掘企业管理的瓶颈？</h1><table>
+<thead>
+<tr>
+<th align="left"></th>
+<th align="left">P(效率)</th>
+<th align="left">Q(品质)</th>
+<th align="left">C(成本)</th>
+<th align="left">D(交期)</th>
+<th align="left">S(安全)</th>
+<th align="left">M(土气)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left"><strong>人</strong></td>
+<td align="left"><mark class="hl-label pink">人均产值</mark> <br>生产效率</td>
+<td align="left">管理技能<br>工作品质</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">安全事故<br>发生次数</td>
+<td align="left">工作激情<br><mark class="hl-label pink">员工离职率</mark> <br>员工出勤率</td>
+</tr>
+<tr>
+<td align="left"><strong>机</strong></td>
+<td align="left"><mark class="hl-label pink">设备稼动率</mark> </td>
+<td align="left">设备故障停机率</td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left">安全事故<br>发生次数</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"><strong>料</strong></td>
+<td align="left">销售目标达成率</td>
+<td align="left">进料检验批合格率<br>制程不良率<br> <mark class="hl-label pink">成品检验批合格率</mark> <br>客户退货金额比率</td>
+<td align="left"><mark class="hl-label pink">库存周转率</mark> <br>材料损耗率<br>呆料占库存<br>金额比例</td>
+<td align="left"><mark class="hl-label pink">客户订单</mark> <br><mark class="hl-label pink">交货准时率</mark> <br>采购订单<br>交货准时率</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"><strong>法</strong></td>
+<td align="left">应收帐款回收率<br>产能利用率</td>
+<td align="left">客户投诉件数<br><mark class="hl-label pink">料帐准确率</mark> </td>
+<td align="left">行销费用占<br>销售金额比例</td>
+<td align="left">生产计划<br>及时完成率</td>
+<td align="left"></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left"><strong>环</strong></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"></td>
+<td align="left"><mark class="hl-label pink">5S执行成效</mark> </td>
+<td align="left"></td>
+</tr>
+</tbody></table>
+</blockquote>
+<blockquote>
+<h2 id="备注"><a href="#备注" class="headerlink" title="备注"></a>备注</h2><blockquote>
+ <mark class="hl-label pink">1.人均产值</mark> 
+<p>$$ \scr 人均产值&#x3D;\frac{企业产品总产量 \times 成本价}{\frac{期初员工数 + 期未员工数}{2}}$$</p>
+<h3 id=""><a href="#" class="headerlink" title=""></a><mark class="hl-label pink">2.员工离职率</mark> </h3><p>$$ \scr 员工离职率&#x3D;\frac{离职人数}{最后一名离职员工前的员工总数}$$</p>
+<h3 id="-1"><a href="#-1" class="headerlink" title=""></a><mark class="hl-label pink">3.设备稼动率</mark> </h3><h4 id="3-1-设备完好率"><a href="#3-1-设备完好率" class="headerlink" title="3.1 设备完好率"></a>3.1 设备完好率</h4><p>$$ \scr 设备完好率&#x3D; [1-\frac{设备故障停止时间}{日历工作时间-计划内停机时间}] \times 100 \% $$</p>
+<h4 id="3-2-设备负荷时间利用率"><a href="#3-2-设备负荷时间利用率" class="headerlink" title="3.2 设备负荷时间利用率"></a>3.2 设备负荷时间利用率</h4><p>$$ \scr 设备负荷时间利用率&#x3D; \frac{日历工作时间-计划内停机时间-计划外停机时间}{日历工作时间-计划内停机时间} \times 100 \% $$</p>
+<h4 id="3-3-设备综合效率"><a href="#3-3-设备综合效率" class="headerlink" title="3.3 设备综合效率"></a>3.3 设备综合效率</h4><p>$$ \scr 设备综合效率&#x3D; 设备完好率 \times 性能开动率 \times 合格品率 \times 100 \% $$<br>$$ \scr 性能开动率&#x3D; \frac{理论工作时间}{实际工作时间-停机时间} \times 100 \% $$<br>$$ \scr 合格品率&#x3D; \frac{生产总数-不良品数}{生产总数} \times 100 \% $$</p>
+<h3 id="-2"><a href="#-2" class="headerlink" title=""></a><mark class="hl-label pink">4.库存周转率</mark> </h3><h4 id="4-1-以成本为基础，反映企业流动资产的流动性，主要用于流动性分析。"><a href="#4-1-以成本为基础，反映企业流动资产的流动性，主要用于流动性分析。" class="headerlink" title="4.1 以成本为基础，反映企业流动资产的流动性，主要用于流动性分析。"></a>4.1 以成本为基础，反映企业流动资产的流动性，主要用于流动性分析。</h4><p>$$ \scr 成本基础的存货周转次数&#x3D;销货成本&#x3D; \frac{营业成本}{存货平均余额}  $$</p>
+<h4 id="4-2-以收入为基础，主要用于获利能力分析。"><a href="#4-2-以收入为基础，主要用于获利能力分析。" class="headerlink" title="4.2 以收入为基础，主要用于获利能力分析。"></a>4.2 以收入为基础，主要用于获利能力分析。</h4><p>$$ \scr 收入基础的存货周转次数&#x3D; \frac{营业收入}{\frac{期初存货+期末存货}{2}}  $$<br>$$ \scr 期末存货&#x3D;流动资产-速动资产&#x3D;流动负债 \times（流动比率-速动比率）  $$<br>$$ \scr 收入基础的存货周转次数 - 成本基础的存货周转次数&#x3D;\frac{毛利}{存货平均余额}  $$</p>
+<h4 id="4-3-通过存货周转天数计算。"><a href="#4-3-通过存货周转天数计算。" class="headerlink" title="4.3 通过存货周转天数计算。"></a>4.3 通过存货周转天数计算。</h4><p>$$ \scr 存货周转率&#x3D;\frac{计算期天数（365）}{存货周转天数}  $$</p>
+<h3 id="-3"><a href="#-3" class="headerlink" title=""></a><mark class="hl-label pink">5.交货准时率</mark> </h3><p>$$ \scr 交货准时率&#x3D;\frac{按时交付订单的数量}{需要交付订单的数量} \times 100 \% $$</p>
+<h3 id="-4"><a href="#-4" class="headerlink" title=""></a><mark class="hl-label pink">6.成品检验批合格率</mark> </h3><p>$$ \scr 成品检验批合格率&#x3D;\frac{成品检验批合格的数量}{成品检验批的数量} \times 100 \% $$</p>
+<h3 id="-5"><a href="#-5" class="headerlink" title=""></a><mark class="hl-label pink">7.料帐准确率</mark> </h3><p>$$ \scr 料帐准确率&#x3D;\frac{实地盘存制库存数额}{永续盘存制库存数额} \times 100 \% $$</p>
+</blockquote>
+</blockquote>
+<blockquote>
+<h1 id="生产的七大浪费"><a href="#生产的七大浪费" class="headerlink" title="生产的七大浪费"></a>生产的七大浪费</h1><blockquote>
+<h3 id="-6"><a href="#-6" class="headerlink" title="   "></a><mark class="hl-label red">等待浪费</mark>  <mark class="hl-label blue">搬运浪费</mark>  <mark class="hl-label blue">不良浪费</mark>  <mark class="hl-label blue">动作浪费</mark> </h3><h3 id="-7"><a href="#-7" class="headerlink" title="  "></a><mark class="hl-label blue">加工浪费</mark>  <mark class="hl-label blue">库存浪费</mark>  <mark class="hl-label blue">制造过多/过早浪费</mark> </h3></blockquote>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Admin</category>
+      </categories>
+      <tags>
+        <tag>erp</tag>
+        <tag>admin</tag>
+        <tag>管理</tag>
+        <tag>Pmc</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>学道心经</title>
+    <url>/2022/02/05/Admin/ad20220205/</url>
+    <content><![CDATA[<h3 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h3><blockquote>
+<p>学之道，贵有恒；心先定，学后成。<br>书不洁，杂念生；坐不正，意已动。<br>耳不偏，目常从；早立规，心自恒。</p>
+</blockquote>
+<h3 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h3><blockquote>
+<p>父母心，盼成龙；琢大器，须从容。<br>教之切，易有偏；基不正，难承重。<br>学之始，贵习性；初学易，后难成。<br>习性定，规矩生；方有隅，圆有形。</p>
+</blockquote>
+<h3 id="第三章"><a href="#第三章" class="headerlink" title="第三章"></a>第三章</h3><blockquote>
+<p>学之力，在动机；好奇心，求知欲。<br>日观察，问问题；答其问，要仔细。<br>进取心，表现欲；常游戏，争第一。<br>从小起，多鼓励；常启发，重累积。<br>遇挫折，不放弃；磨砺深，始成器。</p>
+</blockquote>
+<h3 id="第四章"><a href="#第四章" class="headerlink" title="第四章"></a>第四章</h3><blockquote>
+<p>学之习，有三程；循序进，学艺精。<br>先预习，疑念生；多提问，理易明。<br>再听课，心神凝；做笔记，要工整。<br>师之言，书重点；己之思，释疑难。<br>后复习，建体系；推原理，重题例。</p>
+</blockquote>
+<h3 id="第五章"><a href="#第五章" class="headerlink" title="第五章"></a>第五章</h3><blockquote>
+<p>学之法，无常形；有规始，无规终。<br>眼有形，耳有声；心常思，手不停。<br>解题易，出题难；变角度，获益丰。<br>繁或难，有路经；一分三，简易生。<br>难记忆，多联想；被动弱，主动强。</p>
+</blockquote>
+<h3 id="第六章"><a href="#第六章" class="headerlink" title="第六章"></a>第六章</h3><blockquote>
+<p>学有感，感有功。<br>首框架，如象形；体系成，为大用。<br>再层次，分类同；条块出，意义清。<br>后逻辑，思因果；善推理，成悟性。<br>语感兴，在朗诵；常动口，意自明。</p>
+</blockquote>
+<h3 id="第七章"><a href="#第七章" class="headerlink" title="第七章"></a>第七章</h3><blockquote>
+<p>学有难，心勿乱；多诵读，题意现。<br>列已知，猜原理；设未知，助逻辑。<br>解之道，分过程；大题化，小题生。<br>自所求，找所需；前后行，逐步成。</p>
+</blockquote>
+<h3 id="第八章"><a href="#第八章" class="headerlink" title="第八章"></a>第八章</h3><blockquote>
+<p>学不前，必有因；曰无志，曰分心。<br>心无力，少意义；曰爱国，曰自尊。<br>学之心，不可分；听音乐，乱本根。<br>心有属，学难专；恋游戏，误长远。<br>苟不明，费光阴；青春逝，岂万金。</p>
+</blockquote>
+<h3 id="第九章"><a href="#第九章" class="headerlink" title="第九章"></a>第九章</h3><blockquote>
+<p>学有规，不可违；拔苗长，木难遂。<br>先知情，次晓义；再学文，后明理。<br>美生爱，为动力；四美者，当牢记。<br>自然一，人际二；科学三，艺术四。<br>一岁起，重情趣；至三岁，授仁义。<br>五岁后，可教文；及七岁，格数理。<br>小神童，大平庸；逾越过，覆辙中。</p>
+</blockquote>
+<h3 id="第十章"><a href="#第十章" class="headerlink" title="第十章"></a>第十章</h3><blockquote>
+<p>学有乐，亦有苦；苦生乐，始感悟。<br>强其心，弱其腹；延其乐，纳其苦。<br>有大爱，曰不仁；谨漠视，慎关注。<br>护子过，损其多；见小错，切莫乐。<br>知荣耀，守暗辱；自然心，若空谷。<br>修自身，可齐家；家和谐，子贤达。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Admin</category>
+      </categories>
+      <tags>
+        <tag>学习</tag>
+        <tag>学道</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>工程表单关联</title>
     <url>/2022/02/06/Eng/eng20220206/</url>
     <content><![CDATA[<h3 id="工程表单关联–-数据字典"><a href="#工程表单关联–-数据字典" class="headerlink" title="工程表单关联–&gt;数据字典"></a>工程表单关联–&gt;数据字典</h3><div class="mermaid-wrap"><pre class="mermaid-src" hidden>
@@ -1499,15 +1499,28 @@
     <title>珠海龙队骑行记录</title>
     <url>/2024/07/12/Loongbike/lg20240712/</url>
     <content><![CDATA[<h1 id="珠海龙队晨骑记录"><a href="#珠海龙队晨骑记录" class="headerlink" title="珠海龙队晨骑记录"></a>珠海龙队晨骑记录</h1><div class="timeline pink"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>2024</p>
-</div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-11</p>
-</div></div><div class='timeline-item-content'><div class="gallery-container" data-type="data" data-button="false">
-      <div class="gallery-data">[{"url":"/img/Loongbike/2024071100.jpg","alt":""},{"url":"/img/Loongbike/2024071101.jpg","alt":""}]</div>
+</div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-13</p>
+</div></div><div class='timeline-item-content'><div class="gallery-group-main">
+<figure class="gallery-group">
+  <img class="gallery-group-img no-lightbox" src='https://i.loli.net/2019/11/10/T7Mu8Aod3egmC4Q.png' alt="Group Image Gallery">
+  <figcaption>
+  <div class="gallery-group-name">name</div>
+  <p>description</p>
+  <a href='/img/Loongbike'></a>
+  </figcaption>
+  </figure>
+  
+</div>
+
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-12</p>
+</div></div><div class='timeline-item-content'><div class="gallery-container" data-type="data" data-button="true">
+      <div class="gallery-data">[{"url":"/img/Loongbike/2024071200.png","alt":""},{"url":"/img/Loongbike/20240712/2024071201.png","alt":""},{"url":"/img/Loongbike/20240712/2024071202.png","alt":""},{"url":"/img/Loongbike/20240712/2024071203.png","alt":""}]</div>
       <div class="gallery-items">
       </div>
     </div>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-12</p>
-</div></div><div class='timeline-item-content'><div class="gallery-container" data-type="data" data-button="false">
-      <div class="gallery-data">[{"url":"/img/Loongbike/2024071200.png","alt":""},{"url":"/img/Loongbike/20240712/2024071201.png","alt":""},{"url":"/img/Loongbike/20240712/2024071202.png","alt":""},{"url":"/img/Loongbike/20240712/2024071203.png","alt":""}]</div>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-11</p>
+</div></div><div class='timeline-item-content'><div class="gallery-container" data-type="data" data-button="true">
+      <div class="gallery-data">[{"url":"/img/Loongbike/2024071100.jpg","alt":""},{"url":"/img/Loongbike/2024071101.jpg","alt":""}]</div>
       <div class="gallery-items">
       </div>
     </div>
