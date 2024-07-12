@@ -1382,6 +1382,59 @@
       </tags>
   </entry>
   <entry>
+    <title>有关单位换算比例与实际差异相关问题</title>
+    <url>/2022/08/03/FIN/fin20220803/</url>
+    <content><![CDATA[<h1 id="有关单位换算比例与实际差异相关问题"><a href="#有关单位换算比例与实际差异相关问题" class="headerlink" title="有关单位换算比例与实际差异相关问题"></a>有关单位换算比例与实际差异相关问题</h1><blockquote>
+<p>针对问题，利用5W2H分析法来解决。<br><img src="/img/FIN/Fin20220707.png" alt="5W2H原因分析法"></p>
+</blockquote>
+<h3 id="Why"><a href="#Why" class="headerlink" title="Why"></a>Why</h3><ul>
+<li>胶板采购单按实际重量收货后，如&gt;标准重，造成PO的我方数量（PCS）未交货数减少,而产生新的物料需求。</li>
+<li>胶板采购单按实际重量收货后，如&lt;标准重，造成PO的我方数量（PCS）未交货数增加,而减少物料需求。</li>
+<li>对应PO产生采购差异。</li>
+<li>Epicor外挂系统 PO检查对比数据<blockquote>
+<p><img src="/img/FIN/bc01.png" alt="PO检查"><br>图①② 采购订单按标准换算比例计算 470PCS&#x3D;84.6847KG<br>图③④  采购收货时，按实际重量对应 100PCS&#x3D;18.65KG  100PCS&#x3D;19KG<br>图⑤⑥  采购收货时，按实际重量，按物料换算比例1KG&#x3D;5.55PCS 计算得 18.65KG&#x3D;103.5075PCS 19KG&#x3D;105.45PCS<br>图⑦⑧  应付发票按实际重量付款，对应收货数量为 18.65KG&#x3D;103.5075PCS 19KG&#x3D;105.45PCS</p>
+</blockquote>
+</li>
+<li>影响物料需求示例<blockquote>
+<p><img src="/img/FIN/bc02.png" alt="PO检查"><br>图①  采购收货实际数量为200PCS，正常采购在途为270PCS ，但时间段是按实际收货公斤数及物料换算比例计算的PCS数来扣除采购单。即470-103.5075-105.45&#x3D;261.04  PCS   （问题产生点）<br>图② 采购数据为470PCS</p>
+</blockquote>
+</li>
+</ul>
+<h3 id="What"><a href="#What" class="headerlink" title="What"></a>What</h3><ul>
+<li>因供应商会按实际重量收货，故需按数据修正物料单位换算比例。尽量控制到±5%。</li>
+</ul>
+<h3 id="Where"><a href="#Where" class="headerlink" title="Where"></a>Where</h3><ul>
+<li>Epicor外挂系统里时间段查询 是按PCS来计算采购未结，可供采购员数据参考。<blockquote>
+<p><img src="/img/FIN/bc03.png" alt="PO检查"><br>图① 采购在途是按采购收货的PCS数量来计算采购未交数。<br>图② 时间段结余供采购员输入新采购数量参考。</p>
+</blockquote>
+</li>
+</ul>
+<h3 id="When"><a href="#When" class="headerlink" title="When"></a>When</h3><ul>
+<li>胶板采购单输入时，需按PCS核算物料需求，如按时间段会存在差异。</li>
+</ul>
+<h3 id="Who"><a href="#Who" class="headerlink" title="Who"></a>Who</h3><ul>
+<li>采购部：采购单输入人员</li>
+<li>工程部：确定胶板实际重量合理性</li>
+<li>胶板部：本厂胶板实际重量合理性</li>
+</ul>
+<h3 id="How"><a href="#How" class="headerlink" title="How"></a>How</h3><ul>
+<li>Epicor 数据库邮件通知胶板收货换算与物料设置换算比例差异。</li>
+</ul>
+<h3 id="How-much"><a href="#How-much" class="headerlink" title="How much"></a>How much</h3><ul>
+<li>季度或者半年一次，针对胶板换算比例，分析换算比例差异原因，按PO收货数据批量调整物料单位换算比例。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Fin</category>
+      </categories>
+      <tags>
+        <tag>财务</tag>
+        <tag>epicor</tag>
+        <tag>工程</tag>
+        <tag>采购</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>工单入库超过工单生产数造成库存成本错误的解救办法</title>
     <url>/2022/07/07/FIN/fin20220707/</url>
     <content><![CDATA[<h1 id="工单入库超过工单生产数造成库存成本错误的解救办法"><a href="#工单入库超过工单生产数造成库存成本错误的解救办法" class="headerlink" title="工单入库超过工单生产数造成库存成本错误的解救办法"></a>工单入库超过工单生产数造成库存成本错误的解救办法</h1><blockquote>
@@ -1443,67 +1496,40 @@
       </tags>
   </entry>
   <entry>
-    <title>有关单位换算比例与实际差异相关问题</title>
-    <url>/2022/08/03/FIN/fin20220803/</url>
-    <content><![CDATA[<h1 id="有关单位换算比例与实际差异相关问题"><a href="#有关单位换算比例与实际差异相关问题" class="headerlink" title="有关单位换算比例与实际差异相关问题"></a>有关单位换算比例与实际差异相关问题</h1><blockquote>
-<p>针对问题，利用5W2H分析法来解决。<br><img src="/img/FIN/Fin20220707.png" alt="5W2H原因分析法"></p>
-</blockquote>
-<h3 id="Why"><a href="#Why" class="headerlink" title="Why"></a>Why</h3><ul>
-<li>胶板采购单按实际重量收货后，如&gt;标准重，造成PO的我方数量（PCS）未交货数减少,而产生新的物料需求。</li>
-<li>胶板采购单按实际重量收货后，如&lt;标准重，造成PO的我方数量（PCS）未交货数增加,而减少物料需求。</li>
-<li>对应PO产生采购差异。</li>
-<li>Epicor外挂系统 PO检查对比数据<blockquote>
-<p><img src="/img/FIN/bc01.png" alt="PO检查"><br>图①② 采购订单按标准换算比例计算 470PCS&#x3D;84.6847KG<br>图③④  采购收货时，按实际重量对应 100PCS&#x3D;18.65KG  100PCS&#x3D;19KG<br>图⑤⑥  采购收货时，按实际重量，按物料换算比例1KG&#x3D;5.55PCS 计算得 18.65KG&#x3D;103.5075PCS 19KG&#x3D;105.45PCS<br>图⑦⑧  应付发票按实际重量付款，对应收货数量为 18.65KG&#x3D;103.5075PCS 19KG&#x3D;105.45PCS</p>
-</blockquote>
-</li>
-<li>影响物料需求示例<blockquote>
-<p><img src="/img/FIN/bc02.png" alt="PO检查"><br>图①  采购收货实际数量为200PCS，正常采购在途为270PCS ，但时间段是按实际收货公斤数及物料换算比例计算的PCS数来扣除采购单。即470-103.5075-105.45&#x3D;261.04  PCS   （问题产生点）<br>图② 采购数据为470PCS</p>
-</blockquote>
-</li>
-</ul>
-<h3 id="What"><a href="#What" class="headerlink" title="What"></a>What</h3><ul>
-<li>因供应商会按实际重量收货，故需按数据修正物料单位换算比例。尽量控制到±5%。</li>
-</ul>
-<h3 id="Where"><a href="#Where" class="headerlink" title="Where"></a>Where</h3><ul>
-<li>Epicor外挂系统里时间段查询 是按PCS来计算采购未结，可供采购员数据参考。<blockquote>
-<p><img src="/img/FIN/bc03.png" alt="PO检查"><br>图① 采购在途是按采购收货的PCS数量来计算采购未交数。<br>图② 时间段结余供采购员输入新采购数量参考。</p>
-</blockquote>
-</li>
-</ul>
-<h3 id="When"><a href="#When" class="headerlink" title="When"></a>When</h3><ul>
-<li>胶板采购单输入时，需按PCS核算物料需求，如按时间段会存在差异。</li>
-</ul>
-<h3 id="Who"><a href="#Who" class="headerlink" title="Who"></a>Who</h3><ul>
-<li>采购部：采购单输入人员</li>
-<li>工程部：确定胶板实际重量合理性</li>
-<li>胶板部：本厂胶板实际重量合理性</li>
-</ul>
-<h3 id="How"><a href="#How" class="headerlink" title="How"></a>How</h3><ul>
-<li>Epicor 数据库邮件通知胶板收货换算与物料设置换算比例差异。</li>
-</ul>
-<h3 id="How-much"><a href="#How-much" class="headerlink" title="How much"></a>How much</h3><ul>
-<li>季度或者半年一次，针对胶板换算比例，分析换算比例差异原因，按PO收货数据批量调整物料单位换算比例。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Fin</category>
-      </categories>
-      <tags>
-        <tag>财务</tag>
-        <tag>epicor</tag>
-        <tag>工程</tag>
-        <tag>采购</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>珠海龙队骑行记录</title>
     <url>/2024/07/12/Loongbike/lg20240712/</url>
     <content><![CDATA[<h1 id="珠海龙队晨骑记录"><a href="#珠海龙队晨骑记录" class="headerlink" title="珠海龙队晨骑记录"></a>珠海龙队晨骑记录</h1><div class="timeline pink"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>2024</p>
 </div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-11</p>
-</div></div><div class='timeline-item-content'><img src="/img/Loongbike/20240712/2024071200.png"  width="50%"  />
+</div></div><div class='timeline-item-content'><blockquote>
+<p><img src="/img/Loongbike/20240712/2024071200.png" alt="珠海横石基"></p>
+</blockquote>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-11</p>
+</div></div><div class='timeline-item-content'><blockquote>
+<p><img src="/img/Loongbike/20240712/2024071200.png" alt="珠海横石基"></p>
+</blockquote>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-11</p>
+</div></div><div class='timeline-item-content'><blockquote>
+<p><img src="/img/Loongbike/20240712/2024071200.png" alt="珠海横石基"></p>
+</blockquote>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-11</p>
+</div></div><div class='timeline-item-content'><blockquote>
+<p><img src="/img/Loongbike/20240712/2024071200.png" alt="珠海横石基"></p>
+</blockquote>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-11</p>
+</div></div><div class='timeline-item-content'><blockquote>
+<p><img src="/img/Loongbike/20240712/2024071200.png" alt="珠海横石基"></p>
+</blockquote>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-11</p>
+</div></div><div class='timeline-item-content'><blockquote>
+<p><img src="/img/Loongbike/20240712/2024071200.png" alt="珠海横石基"></p>
+</blockquote>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-11</p>
+</div></div><div class='timeline-item-content'><blockquote>
+<p><img src="/img/Loongbike/2024071100.jpg" alt="珠海横石基-晨骑"><br><img src="/img/Loongbike/2024071101.jpg" alt="珠海横石基-晚骑"></p>
+</blockquote>
 </div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-12</p>
 </div></div><div class='timeline-item-content'><blockquote>
-<p><img src="/img/Loongbike/20240712/2024071200.png"></p>
+<p><img src="/img/Loongbike/2024071200.png" alt="珠海横石基"></p>
 </blockquote>
 </div></div></div>
 
