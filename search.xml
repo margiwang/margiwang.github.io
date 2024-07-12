@@ -1506,7 +1506,11 @@
       </div>
     </div>
 </div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-12</p>
-</div></div><div class='timeline-item-content'><img src="/img/Loongbike/2024071200.png"  width="20%"  />
+</div></div><div class='timeline-item-content'><div class="gallery-container" data-type="data" data-button="">
+      <div class="gallery-data">[{"url":"/img/Loongbike/2024071100.jpg","alt":""},{"url":"/img/Loongbike/2024071200.png","alt":""}]</div>
+      <div class="gallery-items">
+      </div>
+    </div>
 </div></div></div>
 
 <!-- 
