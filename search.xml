@@ -1575,6 +1575,33 @@
       </tags>
   </entry>
   <entry>
+    <title>订单式购买的销售订单多出处理办法</title>
+    <url>/2022/01/20/order/order202202/</url>
+    <content><![CDATA[<blockquote>
+<p>针对订单式购买的销售订单，供应商有多送数量，经与客户沟通可以多出货。对应epicor系统处理方式如下</p>
+</blockquote>
+<h1 id="销售订单"><a href="#销售订单" class="headerlink" title="销售订单"></a>销售订单</h1><blockquote>
+<mark class="hl-label pink">销售订单不可以更改原订单行的数量</mark> ，必须新增行，输入对应款号及多出的数量。
+<p><img src="/img/Order/Order202202001.png" alt="销售订单处理"></p>
+</blockquote>
+<h1 id="采购订单"><a href="#采购订单" class="headerlink" title="采购订单"></a>采购订单</h1><blockquote>
+<p>采购订单需在原有订单增加行，输入原有销售订单号及对应的新增行。<mark class="hl-label pink">如采购订单已经审核，需反审核后处理</mark> 。<br><img src="/img/Order/Order202202002.png" alt="采购订单处理"></p>
+</blockquote>
+<h1 id="采购收货及销售出货单输入"><a href="#采购收货及销售出货单输入" class="headerlink" title="采购收货及销售出货单输入"></a>采购收货及销售出货单输入</h1><blockquote>
+<p>采购收货及销售出货单输入方法不变！</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Order</category>
+      </categories>
+      <tags>
+        <tag>erp</tag>
+        <tag>epicor</tag>
+        <tag>sa</tag>
+        <tag>业务部</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>销售订单输入帮助及注意事项</title>
     <url>/2022/01/10/order/order202201/</url>
     <content><![CDATA[<h1 id="款号价格输入"><a href="#款号价格输入" class="headerlink" title="款号价格输入"></a>款号价格输入</h1><blockquote>
@@ -1650,33 +1677,6 @@
 <h3 id="4-2-变更后"><a href="#4-2-变更后" class="headerlink" title="4.2 变更后"></a>4.2 变更后</h3><p><img src="/img/Order/Order20220110-08.png" alt="变更后报价"><br><img src="/img/Order/Order20220110-16.png" alt="前更后销售订单"></p>
 </blockquote>
 <hr>
-]]></content>
-      <categories>
-        <category>Order</category>
-      </categories>
-      <tags>
-        <tag>erp</tag>
-        <tag>epicor</tag>
-        <tag>sa</tag>
-        <tag>业务部</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>订单式购买的销售订单多出处理办法</title>
-    <url>/2022/01/20/order/order202202/</url>
-    <content><![CDATA[<blockquote>
-<p>针对订单式购买的销售订单，供应商有多送数量，经与客户沟通可以多出货。对应epicor系统处理方式如下</p>
-</blockquote>
-<h1 id="销售订单"><a href="#销售订单" class="headerlink" title="销售订单"></a>销售订单</h1><blockquote>
-<mark class="hl-label pink">销售订单不可以更改原订单行的数量</mark> ，必须新增行，输入对应款号及多出的数量。
-<p><img src="/img/Order/Order202202001.png" alt="销售订单处理"></p>
-</blockquote>
-<h1 id="采购订单"><a href="#采购订单" class="headerlink" title="采购订单"></a>采购订单</h1><blockquote>
-<p>采购订单需在原有订单增加行，输入原有销售订单号及对应的新增行。<mark class="hl-label pink">如采购订单已经审核，需反审核后处理</mark> 。<br><img src="/img/Order/Order202202002.png" alt="采购订单处理"></p>
-</blockquote>
-<h1 id="采购收货及销售出货单输入"><a href="#采购收货及销售出货单输入" class="headerlink" title="采购收货及销售出货单输入"></a>采购收货及销售出货单输入</h1><blockquote>
-<p>采购收货及销售出货单输入方法不变！</p>
-</blockquote>
 ]]></content>
       <categories>
         <category>Order</category>
