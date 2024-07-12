@@ -1098,50 +1098,6 @@
       </tags>
   </entry>
   <entry>
-    <title>工程表单关联</title>
-    <url>/2022/02/06/Eng/eng20220206/</url>
-    <content><![CDATA[<h3 id="工程表单关联–-数据字典"><a href="#工程表单关联–-数据字典" class="headerlink" title="工程表单关联–&gt;数据字典"></a>工程表单关联–&gt;数据字典</h3><div class="mermaid-wrap"><pre class="mermaid-src" hidden>
-  graph LR;
-    Erp.Part--&gt;Erp.PartRev;
-    Erp.PartRev--&gt;Erp.PartOpr;
-    Erp.PartRev--&gt;Erp.PartMtl;
-    Erp.PartOpr--&gt;Erp.PartOpDtl;
-  </pre></div>
-
-<div class="mermaid-wrap"><pre class="mermaid-src" hidden>
-  graph LR;
-    Erp.ECOGroup--&gt;Erp.ECORev;
-    Erp.ECORev--&gt;Erp.ECOOpr;
-    Erp.ECORev--&gt;Erp.ECOMtl;
-    Erp.ECOOpr--&gt;Erp.ECOOpDtl;
-  </pre></div>
-
-<div class="mermaid-wrap"><pre class="mermaid-src" hidden>
-  graph LR;
-    Erp.QuoteDtl--&gt;Erp.QuoteAsm;
-    Erp.QuoteAsm--&gt;Erp.QuoteOpr;
-    Erp.QuoteAsm--&gt;Erp.QuoteMtl;
-    Erp.QuoteOpr--&gt;Erp.QuoteOpDtl;
-  </pre></div>
-
-<div class="mermaid-wrap"><pre class="mermaid-src" hidden>
-  graph LR;
-    Erp.JobHead--&gt;Erp.JobAsmbl;
-    Erp.JobAsmbl--&gt;Erp.JobOper;
-    Erp.JobAsmbl--&gt;Erp.JobMtl;
-    Erp.JobMtl--&gt;Erp.JobOpDtl;
-  </pre></div>]]></content>
-      <categories>
-        <category>ENG</category>
-      </categories>
-      <tags>
-        <tag>erp</tag>
-        <tag>epicor</tag>
-        <tag>工程</tag>
-        <tag>sql</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Epicor工单分次入库成本计算</title>
     <url>/2022/02/11/FIN/Fin20220211/</url>
     <content><![CDATA[<h3 id="工单多次入库成本计算模拟方式"><a href="#工单多次入库成本计算模拟方式" class="headerlink" title="工单多次入库成本计算模拟方式"></a>工单多次入库成本计算模拟方式</h3><blockquote>
@@ -1496,6 +1452,50 @@
       </tags>
   </entry>
   <entry>
+    <title>工程表单关联</title>
+    <url>/2022/02/06/Eng/eng20220206/</url>
+    <content><![CDATA[<h3 id="工程表单关联–-数据字典"><a href="#工程表单关联–-数据字典" class="headerlink" title="工程表单关联–&gt;数据字典"></a>工程表单关联–&gt;数据字典</h3><div class="mermaid-wrap"><pre class="mermaid-src" hidden>
+  graph LR;
+    Erp.Part--&gt;Erp.PartRev;
+    Erp.PartRev--&gt;Erp.PartOpr;
+    Erp.PartRev--&gt;Erp.PartMtl;
+    Erp.PartOpr--&gt;Erp.PartOpDtl;
+  </pre></div>
+
+<div class="mermaid-wrap"><pre class="mermaid-src" hidden>
+  graph LR;
+    Erp.ECOGroup--&gt;Erp.ECORev;
+    Erp.ECORev--&gt;Erp.ECOOpr;
+    Erp.ECORev--&gt;Erp.ECOMtl;
+    Erp.ECOOpr--&gt;Erp.ECOOpDtl;
+  </pre></div>
+
+<div class="mermaid-wrap"><pre class="mermaid-src" hidden>
+  graph LR;
+    Erp.QuoteDtl--&gt;Erp.QuoteAsm;
+    Erp.QuoteAsm--&gt;Erp.QuoteOpr;
+    Erp.QuoteAsm--&gt;Erp.QuoteMtl;
+    Erp.QuoteOpr--&gt;Erp.QuoteOpDtl;
+  </pre></div>
+
+<div class="mermaid-wrap"><pre class="mermaid-src" hidden>
+  graph LR;
+    Erp.JobHead--&gt;Erp.JobAsmbl;
+    Erp.JobAsmbl--&gt;Erp.JobOper;
+    Erp.JobAsmbl--&gt;Erp.JobMtl;
+    Erp.JobMtl--&gt;Erp.JobOpDtl;
+  </pre></div>]]></content>
+      <categories>
+        <category>ENG</category>
+      </categories>
+      <tags>
+        <tag>erp</tag>
+        <tag>epicor</tag>
+        <tag>工程</tag>
+        <tag>sql</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>珠海龙队骑行记录</title>
     <url>/2024/07/12/Loongbike/lg20240712/</url>
     <content><![CDATA[<h1 id="珠海龙队晨骑记录–-横石基海滩"><a href="#珠海龙队晨骑记录–-横石基海滩" class="headerlink" title="珠海龙队晨骑记录&lt;2024-07-12&gt;–&gt;横石基海滩"></a>珠海龙队晨骑记录&lt;2024-07-12&gt;–&gt;横石基海滩</h1><div class="timeline pink"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>2024</p>
@@ -1506,7 +1506,7 @@
   <figcaption>
   <div class="gallery-group-name">晨骑横石基</div>
   <p>美好生活从骑行开始</p>
-  <a href='/Loongbike/img/'></a>
+  <a href='/Loongbike/img'></a>
   </figcaption>
   </figure>
   
@@ -1572,33 +1572,6 @@
         <tag>epicor</tag>
         <tag>PMC</tag>
         <tag>外发</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>订单式购买的销售订单多出处理办法</title>
-    <url>/2022/01/20/order/order202202/</url>
-    <content><![CDATA[<blockquote>
-<p>针对订单式购买的销售订单，供应商有多送数量，经与客户沟通可以多出货。对应epicor系统处理方式如下</p>
-</blockquote>
-<h1 id="销售订单"><a href="#销售订单" class="headerlink" title="销售订单"></a>销售订单</h1><blockquote>
-<mark class="hl-label pink">销售订单不可以更改原订单行的数量</mark> ，必须新增行，输入对应款号及多出的数量。
-<p><img src="/img/Order/Order202202001.png" alt="销售订单处理"></p>
-</blockquote>
-<h1 id="采购订单"><a href="#采购订单" class="headerlink" title="采购订单"></a>采购订单</h1><blockquote>
-<p>采购订单需在原有订单增加行，输入原有销售订单号及对应的新增行。<mark class="hl-label pink">如采购订单已经审核，需反审核后处理</mark> 。<br><img src="/img/Order/Order202202002.png" alt="采购订单处理"></p>
-</blockquote>
-<h1 id="采购收货及销售出货单输入"><a href="#采购收货及销售出货单输入" class="headerlink" title="采购收货及销售出货单输入"></a>采购收货及销售出货单输入</h1><blockquote>
-<p>采购收货及销售出货单输入方法不变！</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Order</category>
-      </categories>
-      <tags>
-        <tag>erp</tag>
-        <tag>epicor</tag>
-        <tag>sa</tag>
-        <tag>业务部</tag>
       </tags>
   </entry>
   <entry>
@@ -1677,6 +1650,33 @@
 <h3 id="4-2-变更后"><a href="#4-2-变更后" class="headerlink" title="4.2 变更后"></a>4.2 变更后</h3><p><img src="/img/Order/Order20220110-08.png" alt="变更后报价"><br><img src="/img/Order/Order20220110-16.png" alt="前更后销售订单"></p>
 </blockquote>
 <hr>
+]]></content>
+      <categories>
+        <category>Order</category>
+      </categories>
+      <tags>
+        <tag>erp</tag>
+        <tag>epicor</tag>
+        <tag>sa</tag>
+        <tag>业务部</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>订单式购买的销售订单多出处理办法</title>
+    <url>/2022/01/20/order/order202202/</url>
+    <content><![CDATA[<blockquote>
+<p>针对订单式购买的销售订单，供应商有多送数量，经与客户沟通可以多出货。对应epicor系统处理方式如下</p>
+</blockquote>
+<h1 id="销售订单"><a href="#销售订单" class="headerlink" title="销售订单"></a>销售订单</h1><blockquote>
+<mark class="hl-label pink">销售订单不可以更改原订单行的数量</mark> ，必须新增行，输入对应款号及多出的数量。
+<p><img src="/img/Order/Order202202001.png" alt="销售订单处理"></p>
+</blockquote>
+<h1 id="采购订单"><a href="#采购订单" class="headerlink" title="采购订单"></a>采购订单</h1><blockquote>
+<p>采购订单需在原有订单增加行，输入原有销售订单号及对应的新增行。<mark class="hl-label pink">如采购订单已经审核，需反审核后处理</mark> 。<br><img src="/img/Order/Order202202002.png" alt="采购订单处理"></p>
+</blockquote>
+<h1 id="采购收货及销售出货单输入"><a href="#采购收货及销售出货单输入" class="headerlink" title="采购收货及销售出货单输入"></a>采购收货及销售出货单输入</h1><blockquote>
+<p>采购收货及销售出货单输入方法不变！</p>
+</blockquote>
 ]]></content>
       <categories>
         <category>Order</category>
