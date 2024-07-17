@@ -95,92 +95,6 @@
       </tags>
   </entry>
   <entry>
-    <title>学道心经</title>
-    <url>/2022/02/05/Admin/ad20220205/</url>
-    <content><![CDATA[<h3 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h3><blockquote>
-<p>学之道，贵有恒；心先定，学后成。<br>书不洁，杂念生；坐不正，意已动。<br>耳不偏，目常从；早立规，心自恒。</p>
-</blockquote>
-<h3 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h3><blockquote>
-<p>父母心，盼成龙；琢大器，须从容。<br>教之切，易有偏；基不正，难承重。<br>学之始，贵习性；初学易，后难成。<br>习性定，规矩生；方有隅，圆有形。</p>
-</blockquote>
-<h3 id="第三章"><a href="#第三章" class="headerlink" title="第三章"></a>第三章</h3><blockquote>
-<p>学之力，在动机；好奇心，求知欲。<br>日观察，问问题；答其问，要仔细。<br>进取心，表现欲；常游戏，争第一。<br>从小起，多鼓励；常启发，重累积。<br>遇挫折，不放弃；磨砺深，始成器。</p>
-</blockquote>
-<h3 id="第四章"><a href="#第四章" class="headerlink" title="第四章"></a>第四章</h3><blockquote>
-<p>学之习，有三程；循序进，学艺精。<br>先预习，疑念生；多提问，理易明。<br>再听课，心神凝；做笔记，要工整。<br>师之言，书重点；己之思，释疑难。<br>后复习，建体系；推原理，重题例。</p>
-</blockquote>
-<h3 id="第五章"><a href="#第五章" class="headerlink" title="第五章"></a>第五章</h3><blockquote>
-<p>学之法，无常形；有规始，无规终。<br>眼有形，耳有声；心常思，手不停。<br>解题易，出题难；变角度，获益丰。<br>繁或难，有路经；一分三，简易生。<br>难记忆，多联想；被动弱，主动强。</p>
-</blockquote>
-<h3 id="第六章"><a href="#第六章" class="headerlink" title="第六章"></a>第六章</h3><blockquote>
-<p>学有感，感有功。<br>首框架，如象形；体系成，为大用。<br>再层次，分类同；条块出，意义清。<br>后逻辑，思因果；善推理，成悟性。<br>语感兴，在朗诵；常动口，意自明。</p>
-</blockquote>
-<h3 id="第七章"><a href="#第七章" class="headerlink" title="第七章"></a>第七章</h3><blockquote>
-<p>学有难，心勿乱；多诵读，题意现。<br>列已知，猜原理；设未知，助逻辑。<br>解之道，分过程；大题化，小题生。<br>自所求，找所需；前后行，逐步成。</p>
-</blockquote>
-<h3 id="第八章"><a href="#第八章" class="headerlink" title="第八章"></a>第八章</h3><blockquote>
-<p>学不前，必有因；曰无志，曰分心。<br>心无力，少意义；曰爱国，曰自尊。<br>学之心，不可分；听音乐，乱本根。<br>心有属，学难专；恋游戏，误长远。<br>苟不明，费光阴；青春逝，岂万金。</p>
-</blockquote>
-<h3 id="第九章"><a href="#第九章" class="headerlink" title="第九章"></a>第九章</h3><blockquote>
-<p>学有规，不可违；拔苗长，木难遂。<br>先知情，次晓义；再学文，后明理。<br>美生爱，为动力；四美者，当牢记。<br>自然一，人际二；科学三，艺术四。<br>一岁起，重情趣；至三岁，授仁义。<br>五岁后，可教文；及七岁，格数理。<br>小神童，大平庸；逾越过，覆辙中。</p>
-</blockquote>
-<h3 id="第十章"><a href="#第十章" class="headerlink" title="第十章"></a>第十章</h3><blockquote>
-<p>学有乐，亦有苦；苦生乐，始感悟。<br>强其心，弱其腹；延其乐，纳其苦。<br>有大爱，曰不仁；谨漠视，慎关注。<br>护子过，损其多；见小错，切莫乐。<br>知荣耀，守暗辱；自然心，若空谷。<br>修自身，可齐家；家和谐，子贤达。</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Admin</category>
-      </categories>
-      <tags>
-        <tag>学习</tag>
-        <tag>学道</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>工程表单关联</title>
-    <url>/2022/02/06/Eng/eng20220206/</url>
-    <content><![CDATA[<h3 id="工程表单关联–-数据字典"><a href="#工程表单关联–-数据字典" class="headerlink" title="工程表单关联–&gt;数据字典"></a>工程表单关联–&gt;数据字典</h3><div class="mermaid-wrap"><pre class="mermaid-src" hidden>
-  graph LR;
-    Erp.Part--&gt;Erp.PartRev;
-    Erp.PartRev--&gt;Erp.PartOpr;
-    Erp.PartRev--&gt;Erp.PartMtl;
-    Erp.PartOpr--&gt;Erp.PartOpDtl;
-  </pre></div>
-
-<div class="mermaid-wrap"><pre class="mermaid-src" hidden>
-  graph LR;
-    Erp.ECOGroup--&gt;Erp.ECORev;
-    Erp.ECORev--&gt;Erp.ECOOpr;
-    Erp.ECORev--&gt;Erp.ECOMtl;
-    Erp.ECOOpr--&gt;Erp.ECOOpDtl;
-  </pre></div>
-
-<div class="mermaid-wrap"><pre class="mermaid-src" hidden>
-  graph LR;
-    Erp.QuoteDtl--&gt;Erp.QuoteAsm;
-    Erp.QuoteAsm--&gt;Erp.QuoteOpr;
-    Erp.QuoteAsm--&gt;Erp.QuoteMtl;
-    Erp.QuoteOpr--&gt;Erp.QuoteOpDtl;
-  </pre></div>
-
-<div class="mermaid-wrap"><pre class="mermaid-src" hidden>
-  graph LR;
-    Erp.JobHead--&gt;Erp.JobAsmbl;
-    Erp.JobAsmbl--&gt;Erp.JobOper;
-    Erp.JobAsmbl--&gt;Erp.JobMtl;
-    Erp.JobMtl--&gt;Erp.JobOpDtl;
-  </pre></div>]]></content>
-      <categories>
-        <category>ENG</category>
-      </categories>
-      <tags>
-        <tag>erp</tag>
-        <tag>epicor</tag>
-        <tag>工程</tag>
-        <tag>sql</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Fork 使用指南</title>
     <url>/2024/07/01/Book/Fork%E5%B8%AE%E5%8A%A9/</url>
     <content><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><pre><code>fork: 一款 git 可视化工具
@@ -428,816 +342,6 @@
       </tags>
   </entry>
   <entry>
-    <title>邓亚萍《心力》读书笔记</title>
-    <url>/2022/02/13/Book/xinli/</url>
-    <content><![CDATA[<h1 id="心态提升"><a href="#心态提升" class="headerlink" title="心态提升"></a>心态提升</h1><h2 id="01-思维阻断：给情绪安装开关，就能控制焦虑"><a href="#01-思维阻断：给情绪安装开关，就能控制焦虑" class="headerlink" title="01.思维阻断：给情绪安装开关，就能控制焦虑"></a>01.思维阻断：给情绪安装开关，就能控制焦虑</h2><h3 id="思维阻断-Thought-Stopping"><a href="#思维阻断-Thought-Stopping" class="headerlink" title="思维阻断 Thought Stopping"></a>思维阻断 Thought Stopping</h3><blockquote>
-<p>提炼出处<br>运动心理学家 Zinsser,N.,Bunker,L.。</p>
-</blockquote>
-<blockquote>
-<p>简述<br>大脑对“禁止”的反应速度慢于“命令”，要自己“别想了”只会想得更多。正确的做法是提高自己“走神的能力”，在重要关头，靠转移注意力摆脱坏念头。</p>
-</blockquote>
-<blockquote>
-<p>适用场景<br>考场中，因心态紧张而大脑空白，这个方法有助于及时止损，避免崩盘。</p>
-</blockquote>
-<blockquote>
-<p>使用方法<br>设计你的“专属小动作”，在掉链子的时候，可以通过做这个动作适度走神。</p>
-</blockquote>
-<h3 id="瓦伦达效应-Wallenda-Effect"><a href="#瓦伦达效应-Wallenda-Effect" class="headerlink" title="瓦伦达效应 Wallenda Effect"></a>瓦伦达效应 Wallenda Effect</h3><blockquote>
-<p>简述<br>指为了达到一种目的而总是患得患失的心态</p>
-</blockquote>
-<blockquote>
-<p>来历<br>卡尔·瓦伦达是美国著名的高空走钢索表演者，他在一次重大的表演中不幸失足身亡。<br>他的妻子事后说：我知道这次一定会出事。因为他上场前总不停地说：“这次太重要了，不能失败”。而以前每次成功的表演，他总想着走钢丝这件事本身，而不去管这个事可能带来的一切。</p>
-</blockquote>
-<h3 id="邓亚萍总结"><a href="#邓亚萍总结" class="headerlink" title="邓亚萍总结"></a>邓亚萍总结</h3><blockquote>
-<p>第一，面对失误，最忌讳的就是反复提醒自己冷静，同时注意力却深陷其中。<br>第二，真正的赢家，会用思维阻断的方法，找到一件可以短暂分心并且全心投入的事情，主动给自己创造走神时刻。</p>
-</blockquote>
-<h2 id="02-失败清单：认清“失控感”，最大限度控制意外"><a href="#02-失败清单：认清“失控感”，最大限度控制意外" class="headerlink" title="02.失败清单：认清“失控感”，最大限度控制意外"></a>02.失败清单：认清“失控感”，最大限度控制意外</h2><h3 id="失败清单-Failure-List"><a href="#失败清单-Failure-List" class="headerlink" title="失败清单 Failure List"></a>失败清单 Failure List</h3><blockquote>
-<p>提炼出处<br>心理学家 Kelly McGonigal.</p>
-</blockquote>
-<blockquote>
-<p>简述<br>意外状况不可怕，“失控感”才可怕。所以，面对意外状况，要设计一个“失败清单”，这样一来，发生意外状况，大脑会认为“一切还在掌控中”。</p>
-</blockquote>
-<blockquote>
-<p>适用场景<br>考题超出准备，遇到犀利的面试官，演讲、汇报时发生突发状况等。</p>
-</blockquote>
-<blockquote>
-<p>使用方法<br>用游戏的心态，预设会发生的意外状况，并写在小卡片上。</p>
-</blockquote>
-<h3 id="邓亚萍总结-1"><a href="#邓亚萍总结-1" class="headerlink" title="邓亚萍总结"></a>邓亚萍总结</h3><blockquote>
-<p>第一，面对意外状况，最忌讳“糟了！完蛋了！”这种心理暗示。<br>第二，赢家会用失败清单，说服自己确认“一切还在掌控中”。</p>
-</blockquote>
-<h2 id="03-迷信习惯：给自己设计一个小动作，做好心理暗示"><a href="#03-迷信习惯：给自己设计一个小动作，做好心理暗示" class="headerlink" title="03.迷信习惯：给自己设计一个小动作，做好心理暗示"></a>03.迷信习惯：给自己设计一个小动作，做好心理暗示</h2><h3 id="运动员的小迷信-Superstitions"><a href="#运动员的小迷信-Superstitions" class="headerlink" title="运动员的小迷信 Superstitions"></a>运动员的小迷信 Superstitions</h3><blockquote>
-<p>提炼出处<br>顶尖运动员的经验。</p>
-</blockquote>
-<blockquote>
-<p>简述<br>运动场上充满太多不确定性，运动员为了增强“控制感”，都会用一些“幸运物” “幸运仪式” 来说服自己，相信自己是幸运的。和算命、锦鲤不同，这种“迷信”，是为了让自己有更好的表现。</p>
-</blockquote>
-<blockquote>
-<p>适用场景<br>大考、面试、重要工作汇报前的最后时刻，让你不被外力干扰，对自己的表现更有自信。</p>
-</blockquote>
-<h3 id="邓亚萍总结-2"><a href="#邓亚萍总结-2" class="headerlink" title="邓亚萍总结"></a>邓亚萍总结</h3><blockquote>
-<p>第一，迷信的重点不是你信不信，而是能够有效提升在不确定环境下，你对自己的控制力。迷信简单、粗暴、非理性，但是偏偏能管用。<br>第二，与其去盲从，听信一些别人给你推荐的小迷信，不如给自己精心设计一个小动作、小习惯。</p>
-</blockquote>
-<h2 id="04-自我激励：学会30度原则，才能时刻保持耐心"><a href="#04-自我激励：学会30度原则，才能时刻保持耐心" class="headerlink" title="04.自我激励：学会30度原则，才能时刻保持耐心"></a>04.自我激励：学会30度原则，才能时刻保持耐心</h2><h3 id="练习的心态-Practicing-Mind"><a href="#练习的心态-Practicing-Mind" class="headerlink" title="练习的心态 Practicing Mind"></a>练习的心态 Practicing Mind</h3><blockquote>
-<p>提炼出处<br>美国心理学者 Thomas M.Sterner.</p>
-</blockquote>
-<blockquote>
-<p>简述<br>随着年龄的增长，我们只盯着目标和成绩，内心充满压力和焦虑。在学习一项新技能进，经常刚开始就放弃；或者面对生活或工作中的挑战，无法耐心又专心地应对。人的大脑对结果的暗示效率极低，控制力极弱。</p>
-</blockquote>
-<blockquote>
-<p>适用场景<br>职场重要汇报、学校重要考试前，快速调整心态，增强自我鼓励。</p>
-</blockquote>
-<blockquote>
-<p>使用方法<br>自我鼓励的内容应关注过程而不是结果。更具体来说，“打好这一分球”比胜利更重要。</p>
-</blockquote>
-<h3 id="邓亚萍总结-3"><a href="#邓亚萍总结-3" class="headerlink" title="邓亚萍总结"></a>邓亚萍总结</h3><blockquote>
-<p>第一，自我激励不要想一步到位。你的大脑不会180度转向，相信你一定能赢。<br>第二，正确的方法是关注过程，激励自己把一件件小事做好，一次转30度。</p>
-</blockquote>
-<h2 id="05-角色定位：如何成为更强大的自己"><a href="#05-角色定位：如何成为更强大的自己" class="headerlink" title="05.角色定位：如何成为更强大的自己"></a>05.角色定位：如何成为更强大的自己</h2><h3 id="角色定位-Role-Definition"><a href="#角色定位-Role-Definition" class="headerlink" title="角色定位 Role Definition"></a>角色定位 Role Definition</h3><blockquote>
-<p>提炼出处<br>定位理论由美国著名营销专家艾·里斯（Al Ries）与杰克·特劳特（Jack Trout）提出</p>
-</blockquote>
-<blockquote>
-<p>简述<br>人的自信，有时来自于“我是谁”的设定。你要帮自己找到一个好的角色，用这个角色的心态去面对挑战。</p>
-</blockquote>
-<blockquote>
-<p>适用场景<br>需要达成一个目标，例如考试、考级、获得晋升，但缺乏自信或动力。</p>
-</blockquote>
-<blockquote>
-<p>使用方法<br>给自己设定一个“角色定位”，并不断向期靠拢。</p>
-</blockquote>
-<h3 id="邓亚萍总结-4"><a href="#邓亚萍总结-4" class="headerlink" title="邓亚萍总结"></a>邓亚萍总结</h3><blockquote>
-<p>人的自信，有时来自“我是谁”的设定。你要帮自己找到一个好的角色，用这个角色的心态去面对挑战。</p>
-</blockquote>
-<h2 id="06-如何用特定动作唤醒“强大人格”？"><a href="#06-如何用特定动作唤醒“强大人格”？" class="headerlink" title="06.如何用特定动作唤醒“强大人格”？"></a>06.如何用特定动作唤醒“强大人格”？</h2><h3 id="人设加强-Role-Enhancement"><a href="#人设加强-Role-Enhancement" class="headerlink" title="人设加强 Role Enhancement"></a>人设加强 Role Enhancement</h3><blockquote>
-<p>提炼出处<br>“认知行为矫正法”，由心理治疗专家梅钦鲍姆（Donald Meichenbaum）提出，是用来改善负面负面情绪的心理治疗理论。</p>
-</blockquote>
-<blockquote>
-<p>简述<br>不是自我认知指导行为，而是行为反过来塑造自我认知。刻意做一件和某人设相符的事，就会加强自我设定，让自己更加相信自己这样的人。</p>
-</blockquote>
-<blockquote>
-<p>适用场景<br>考试、面试、谈判、汇报等，需要自信的场合。</p>
-</blockquote>
-<blockquote>
-<p>使用方法<br>1.找到一个让自己有自信的人设；<br>2.刻意做和这个人设相符合的事，让你真实地相信自己。</p>
-</blockquote>
-<h3 id="邓亚萍总结-5"><a href="#邓亚萍总结-5" class="headerlink" title="邓亚萍总结"></a>邓亚萍总结</h3><blockquote>
-<p>第一，很多时候，不是自我认知指导行为，是行为塑造自我认知。<br>第二，想要唤醒自己 “强大的一面”，要靠特定的动作。<br>第三，找到自己最强大的物质，主动做一些和这种物质相符合的事。</p>
-</blockquote>
-<h2 id="07-好的对手会让你遇强则强"><a href="#07-好的对手会让你遇强则强" class="headerlink" title="07.好的对手会让你遇强则强"></a>07.好的对手会让你遇强则强</h2><h3 id="竞争与潜能-Competition-and-Potential"><a href="#竞争与潜能-Competition-and-Potential" class="headerlink" title="竞争与潜能 Competition and Potential"></a>竞争与潜能 Competition and Potential</h3><blockquote>
-<p>简述<br>良性竞争会带来动力增长，激发潜能。<br>竞争会激发潜能，但是竞争和潜能不是线性关系，而是“倒U曲线”关系，要选择合适的对手。<br>你看待竞争的角度决定了你面对竞争的心态，竞争是挑战而不是威胁。<br>竞争的意义不是争，而是竞。不是为了打败对手，而是为了更早达到目标。</p>
-</blockquote>
-<h3 id="邓亚萍总结-6"><a href="#邓亚萍总结-6" class="headerlink" title="邓亚萍总结"></a>邓亚萍总结</h3><blockquote>
-<p>首先，如果你遇到了一个竞争对手，那恭喜你，这可能标志着你在进步。<br>其次，怎么看待竞争取决于你的关注点，竞争是挑战、是机会、而不是威胁。<br>最后，选择一个合适的对手才能给你动力，也不让自己太有挫败感。<br>其实竞争永远不是最终目的，真正目的是不断挑战，自我成长。</p>
-</blockquote>
-<h1 id="效率提升"><a href="#效率提升" class="headerlink" title="效率提升"></a>效率提升</h1><h2 id="08-执行意图：大脑服从“自动程序”，对抗拖延症"><a href="#08-执行意图：大脑服从“自动程序”，对抗拖延症" class="headerlink" title="08.执行意图：大脑服从“自动程序”，对抗拖延症"></a>08.执行意图：大脑服从“自动程序”，对抗拖延症</h2><h3 id="执行意图-Implementation-Intention"><a href="#执行意图-Implementation-Intention" class="headerlink" title="执行意图 Implementation Intention"></a>执行意图 Implementation Intention</h3><blockquote>
-<p>提炼出处<br>纽约大学心理系教授 Peter Gollwitzier</p>
-</blockquote>
-<blockquote>
-<p>简述<br>拖延症产生的一大原因，是大脑会在决策时纳入各种意外因素进行考量。也就是说，偷懒总会战胜坚持。因此，如果能有针对具体场景的“预先设定”，大脑就可以路过决策阶段，自动自发去完成你设定的任务。</p>
-</blockquote>
-<blockquote>
-<p>适用场景<br>锻炼、学习场景、处理每日待办琐事。</p>
-</blockquote>
-<blockquote>
-<p>使用方法<br>在大脑里设定公式：“每到X场景，就要做Y事”。</p>
-</blockquote>
-<blockquote>
-<p>邓亚萍总结<br>第一，大脑不喜欢僵局，大脑喜欢你给它具体的指示。<br>第二，要给大脑明确的指示：我到X场景，就必须做Y事。</p>
-</blockquote>
-<h2 id="09-例外控制：如何即保证休息，又保证高效"><a href="#09-例外控制：如何即保证休息，又保证高效" class="headerlink" title="09.例外控制：如何即保证休息，又保证高效"></a>09.例外控制：如何即保证休息，又保证高效</h2><h3 id="例外控制-Exception-Management"><a href="#例外控制-Exception-Management" class="headerlink" title="例外控制 Exception Management"></a>例外控制 Exception Management</h3><blockquote>
-<p>提炼出处<br>纽约大学心理系教授 Gabriele Oettingen.</p>
-</blockquote>
-<blockquote>
-<p>简述<br>人天生具有惰性。因此，在制定计划之前，要预先设想执行过程中可能遇到的阻碍，并为这些阻碍设置好备案。<br>比如计划跑步，就必须预料到自己可能会加班太累、不愿出门，备案可以是在家仰卧起坐。</p>
-</blockquote>
-<blockquote>
-<p>适用场景<br>读书太疲倦，需要打个盹；工作压力太大，想刷会儿抖音。恰当地应对疲倦、压力，能够张弛有度。</p>
-</blockquote>
-<blockquote>
-<p>使用方法<br>预先设想可能发生的例外状况，并提前做好备案；如果发生X例外情况，那么就应该做Y事。</p>
-</blockquote>
-<h3 id="邓亚萍总结-7"><a href="#邓亚萍总结-7" class="headerlink" title="邓亚萍总结"></a>邓亚萍总结</h3><blockquote>
-<p>第一，不要强迫自己一直工作或学习，主动放松才能更快进步。<br>第二，休息的时候，感性大脑很容易就会接管大脑，让人控制不了惰性。<br>第三，可以设定一个“如果发生X例外情况，那么就应该做Y事”的条件句，拒绝感性接管大脑。<br>此外，WOOP(wish,outcome,obstacle,plan)思考法是对习惯养成和计划执行非常有帮助的一种方法。</p>
-</blockquote>
-<h1 id="抗压训练"><a href="#抗压训练" class="headerlink" title="抗压训练"></a>抗压训练</h1><h1 id="意志力训练"><a href="#意志力训练" class="headerlink" title="意志力训练"></a>意志力训练</h1>]]></content>
-      <categories>
-        <category>Book</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>book</tag>
-        <tag>书</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>人民日报：高考各科最易犯这些错误，不看吃大亏！</title>
-    <url>/2022/06/06/Book/%E9%AB%98%E8%80%83%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</url>
-    <content><![CDATA[<h1 id="人民日报：高考各科最易犯这些错误，不看吃大亏！"><a href="#人民日报：高考各科最易犯这些错误，不看吃大亏！" class="headerlink" title="人民日报：高考各科最易犯这些错误，不看吃大亏！"></a>人民日报：高考各科最易犯这些错误，不看吃大亏！</h1><blockquote>
-<p>高考竞争，千军万马，一分之差就可能与你心仪的学校无缘。</p>
-</blockquote>
-<p><strong>高考各科最易犯的低级错误</strong></p>
-<p><img src="/img/GK/Gk01.jpg" alt="Gk01"></p>
-<p><img src="/img/GK/Gk02.jpg" alt="Gk02"></p>
-<p><img src="/img/GK/Gk03.jpg" alt="Gk03"></p>
-<p><strong>导致高考失分的十大低级错误</strong></p>
-<p><img src="/img/GK/Gk04.jpg" alt="Gk04"></p>
-<p><img src="/img/GK/Gk05.jpg" alt="Gk05"></p>
-<p><img src="/img/GK/Gk06.jpg" alt="Gk06"></p>
-<p><strong>高考应试的九个小窍门</strong></p>
-<p><img src="/img/GK/Gk07.jpg" alt="Gk07"></p>
-<p><img src="/img/GK/Gk08.jpg" alt="Gk08"></p>
-<p><img src="/img/GK/Gk09.jpg" alt="Gk09"></p>
-]]></content>
-      <categories>
-        <category>Book</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-        <tag>高考</tag>
-        <tag>人民日报</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Epicor工单分次入库成本计算</title>
-    <url>/2022/02/11/FIN/Fin20220211/</url>
-    <content><![CDATA[<h3 id="工单多次入库成本计算模拟方式"><a href="#工单多次入库成本计算模拟方式" class="headerlink" title="工单多次入库成本计算模拟方式"></a>工单多次入库成本计算模拟方式</h3><blockquote>
-<p>前提: epicor系统平均成本核算方式<br>因工厂模式不同，生产分批工单入库后出货，入库外发成本会提前分摊。</p>
-</blockquote>
-<p><img src="/img/FIN/Fin20220211.png" alt="Epicor工单分次入库成本计算"></p>
-]]></content>
-      <categories>
-        <category>Fin</category>
-      </categories>
-      <tags>
-        <tag>epicor</tag>
-        <tag>工单成本</tag>
-        <tag>财务</tag>
-        <tag>工单</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>帐务类型(Transaction Type)</title>
-    <url>/2022/01/14/FIN/TranType/</url>
-    <content><![CDATA[<h1 id="帐务类型的应用"><a href="#帐务类型的应用" class="headerlink" title="帐务类型的应用"></a>帐务类型的应用</h1><blockquote>
-<p>使用“物料业务历史追踪”功能（即Part Transaction History Tracker,有时也称为帐务历史，交易历史查询等).<br><img src="/img/FIN/trantype02.png" alt="物料交易历史记录追踪"><br>注：这些历史记录的特点：<br>1.类型：即帐务类型（Transaction Type)。<br>2.数量：本笔操作的数量。注意：此数量的正负并不代表入库或出库，而是指该帐务类型的方向。<br>3.生产合计： 执行些操作后的库存数量。注：并非每笔操作都会引起库存数量的增减。以ADJ-CST(成本调整)为例，对库存无影响；同样的，尽管“PUR-INS”（采购收货后检验）的“数量”列不为0，但对库存也没有影响。</p>
-</blockquote>
-<h1 id="帐务类型举例"><a href="#帐务类型举例" class="headerlink" title="帐务类型举例"></a>帐务类型举例</h1><blockquote>
-<p><img src="/img/FIN/trantype01.png" alt="采购收货各步骤的帐务类型代码"></p>
-</blockquote>
-<h1 id="Epicor-系统帐务类型代码列表"><a href="#Epicor-系统帐务类型代码列表" class="headerlink" title="Epicor 系统帐务类型代码列表"></a>Epicor 系统帐务类型代码列表</h1><blockquote>
-<h2 id="Adjustments-调整类"><a href="#Adjustments-调整类" class="headerlink" title="Adjustments(调整类)"></a>Adjustments(调整类)</h2><table>
-<thead>
-<tr>
-<th align="left">代码</th>
-<th align="left">说明</th>
-<th align="left">备注</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">ADJ-CST</td>
-<td align="left">成本调整</td>
-<td align="left">调整单价:平均单价、最后一次价格、标准价格</td>
-</tr>
-<tr>
-<td align="left">ADJ-QTY</td>
-<td align="left">数量调整</td>
-<td align="left">常用于：盘点差异调整、工程样板</td>
-</tr>
-<tr>
-<td align="left">ADJ-PUR</td>
-<td align="left">采购差异调整</td>
-<td align="left">常用于：采购成本调整</td>
-</tr>
-<tr>
-<td align="left">ADJ-MTL</td>
-<td align="left">工单物料成本调整</td>
-<td align="left">常用于：工单调整-物料成本</td>
-</tr>
-<tr>
-<td align="left">ADJ-SUB</td>
-<td align="left">工单外发成本调整</td>
-<td align="left">常用于：工单调整-外发成本</td>
-</tr>
-</tbody></table>
-</blockquote>
-<blockquote>
-<h2 id="Discrepant-Material-Reporting-物料差异的报告"><a href="#Discrepant-Material-Reporting-物料差异的报告" class="headerlink" title="Discrepant Material Reporting(物料差异的报告)"></a>Discrepant Material Reporting(物料差异的报告)</h2><table>
-<thead>
-<tr>
-<th align="left">代码</th>
-<th align="left">说明</th>
-<th align="left">备注</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">DMR-REJ</td>
-<td align="left">判定不合格</td>
-<td align="left">对于采购收货而言，则意味着“最终判退”</td>
-</tr>
-<tr>
-<td align="left">DMR-STK</td>
-<td align="left">判定合格入库</td>
-<td align="left">对于采购收货而言，则意味着“特采”</td>
-</tr>
-</tbody></table>
-</blockquote>
-<blockquote>
-<h2 id="Inspection-Processing-（检验处理—基本上和我司目前的“初检”相对应）"><a href="#Inspection-Processing-（检验处理—基本上和我司目前的“初检”相对应）" class="headerlink" title="Inspection Processing （检验处理—基本上和我司目前的“初检”相对应）"></a>Inspection Processing （检验处理—基本上和我司目前的“初检”相对应）</h2><table>
-<thead>
-<tr>
-<th align="left">代码</th>
-<th align="left">说明</th>
-<th align="left">备注</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">INS-DMR</td>
-<td align="left">检验不合格</td>
-<td align="left">初检不合格，等待 MRB 处理</td>
-</tr>
-<tr>
-<td align="left">INS-STK</td>
-<td align="left">检验(合格)入库</td>
-<td align="left">初检合格入库</td>
-</tr>
-<tr>
-<td align="left">INS-REJ</td>
-<td align="left">检验到拒绝接收入</td>
-<td align="left">经检验不合格，拒绝接收</td>
-</tr>
-<tr>
-<td align="left">STK-INS</td>
-<td align="left">存货检验</td>
-<td align="left">将仓库存货进行检验</td>
-</tr>
-</tbody></table>
-</blockquote>
-<blockquote>
-<h2 id="Manufacturing-（生产类）"><a href="#Manufacturing-（生产类）" class="headerlink" title="Manufacturing （生产类）"></a>Manufacturing （生产类）</h2><table>
-<thead>
-<tr>
-<th align="left">代码</th>
-<th align="left">说明</th>
-<th align="left">备注</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">MFG-STK</td>
-<td align="left">生产线入库</td>
-<td align="left">目前常用于：成品入库</td>
-</tr>
-<tr>
-<td align="left">MFG-VAR</td>
-<td align="left">工单差异</td>
-<td align="left">目前常用于：工单关闭后系统过帐产生工单成本差异</td>
-</tr>
-</tbody></table>
-</blockquote>
-<blockquote>
-<h2 id="Purchasing-（采购收货类）"><a href="#Purchasing-（采购收货类）" class="headerlink" title="Purchasing （采购收货类）"></a>Purchasing （采购收货类）</h2><table>
-<thead>
-<tr>
-<th align="left">代码</th>
-<th align="left">说明</th>
-<th align="left">备注</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">PUR-INS</td>
-<td align="left">收货至检验</td>
-<td align="left">收货输入-检验</td>
-</tr>
-<tr>
-<td align="left">PUR-STK</td>
-<td align="left">收货至入库</td>
-<td align="left">收货输入-工单入库</td>
-</tr>
-<tr>
-<td align="left">PUR-SUB</td>
-<td align="left">收货到工单</td>
-<td align="left">收货输入-工单外发</td>
-</tr>
-<tr>
-<td align="left">PUR-UKN</td>
-<td align="left">辅料收货</td>
-<td align="left">收货输入-其它物料</td>
-</tr>
-</tbody></table>
-</blockquote>
-<blockquote>
-<h2 id="Shipments-（出货类，多用于成品）"><a href="#Shipments-（出货类，多用于成品）" class="headerlink" title="Shipments （出货类，多用于成品）"></a>Shipments （出货类，多用于成品）</h2><table>
-<thead>
-<tr>
-<th align="left">代码</th>
-<th align="left">说明</th>
-<th align="left">备注</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">STK-CUS</td>
-<td align="left">由仓库出货至客户</td>
-<td align="left">客户出货输入-来自库存</td>
-</tr>
-<tr>
-<td align="left">MFG-CUS</td>
-<td align="left">由工单出货至客户</td>
-<td align="left">客户出货输入-来自工单</td>
-</tr>
-</tbody></table>
-</blockquote>
-<blockquote>
-<h2 id="ShipmeStock-Transactionsnts-（库存交易）"><a href="#ShipmeStock-Transactionsnts-（库存交易）" class="headerlink" title="ShipmeStock Transactionsnts （库存交易）"></a>ShipmeStock Transactionsnts （库存交易）</h2><table>
-<thead>
-<tr>
-<th align="left">代码</th>
-<th align="left">说明</th>
-<th align="left">备注</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="left">STK-MTL</td>
-<td align="left">存货到工单物料</td>
-<td align="left">常用于：发料。</td>
-</tr>
-<tr>
-<td align="left">STK-STK</td>
-<td align="left">存货到存货</td>
-<td align="left">仓库转移</td>
-</tr>
-<tr>
-<td align="left">STK-UKN</td>
-<td align="left">存货到其它</td>
-<td align="left">发放杂项物料</td>
-</tr>
-</tbody></table>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Fin</category>
-      </categories>
-      <tags>
-        <tag>erp</tag>
-        <tag>epicor</tag>
-        <tag>财务</tag>
-        <tag>交易</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>校准--库存/在制品/生产成本-总帐自动分录</title>
-    <url>/2022/02/06/FIN/fin20220206/</url>
-    <content><![CDATA[<p><img src="/img/FIN/fin20220206.png" alt="总帐自动会计分录"></p>
-]]></content>
-      <categories>
-        <category>Fin</category>
-      </categories>
-      <tags>
-        <tag>erp</tag>
-        <tag>epicor</tag>
-        <tag>财务</tag>
-        <tag>交易</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>工单入库超过工单生产数造成库存成本错误的解救办法</title>
-    <url>/2022/07/07/FIN/fin20220707/</url>
-    <content><![CDATA[<h1 id="工单入库超过工单生产数造成库存成本错误的解救办法"><a href="#工单入库超过工单生产数造成库存成本错误的解救办法" class="headerlink" title="工单入库超过工单生产数造成库存成本错误的解救办法"></a>工单入库超过工单生产数造成库存成本错误的解救办法</h1><blockquote>
-<p>针对问题，利用5W2H分析法来解决。<br><img src="/img/FIN/Fin20220707.png" alt="5W2H原因分析法"></p>
-</blockquote>
-<h3 id="Why"><a href="#Why" class="headerlink" title="Why"></a>Why</h3><ul>
-<li>工单入库数超过生产数，成品入库单个成本将降低。</li>
-<li>若入库后，输入了销售出货单，将造成销售成本降低。虚增销售利润！</li>
-<li>需针对入库错误进行更改，核查超出数产生原因。</li>
-</ul>
-<h3 id="What"><a href="#What" class="headerlink" title="What"></a>What</h3><ul>
-<li>发现错误，及时修正错误！</li>
-<li>检讨错误造成原因。</li>
-<li>针对同类错误，制定惩罚措施！</li>
-</ul>
-<h3 id="Where"><a href="#Where" class="headerlink" title="Where"></a>Where</h3><ul>
-<li>解决错误需要配合的部门及步骤如下：<ol>
-<li>财务部 取消对应销售出货行的应收发票。（前提，<strong>如应收发票过帐将无法处理</strong>）</li>
-<li>仓库组 取消销售出货单的<strong>已出货</strong>勾选项。</li>
-<li>业务部 删除对应销售出货行。</li>
-<li>PMC部 成品物料编码 –&gt; 物料类别 –&gt; 负值数量操作 由 <strong>“停止”</strong>更改为 <strong>“无”</strong> </li>
-<li>包装部 按工单原有入库数，<strong>对冲负值入库，冲掉之前入库数</strong>。<strong>切记是全部入库数，日期需为原入库日期</strong>。</li>
-<li>包装部 按实际工单完成数，再入库一次。注意<strong>入库日期为原入库日期</strong>。</li>
-<li>PMC部 呆滞成品如未调整入库，需按财务部要求对应 <strong>“原因代码”</strong>调整数量入库。</li>
-<li>业务部 对应原销售出货单新增一行开出货。</li>
-<li>仓库组 对应销售出货单勾选 <strong>“已出货”</strong>选项。</li>
-<li>财务部 提出出货行做应收发票。</li>
-</ol>
-</li>
-</ul>
-<h3 id="When"><a href="#When" class="headerlink" title="When"></a>When</h3><ul>
-<li>解决问题需当天全部完成，不可拖延。对应成品物料不可有其它交易。</li>
-</ul>
-<h3 id="Who"><a href="#Who" class="headerlink" title="Who"></a>Who</h3><ul>
-<li>财务部 应收会计人员</li>
-<li>业务部 对应客户的跟单员</li>
-<li>包装部 对应客户的入库人员</li>
-<li>仓库组 仓库负责人</li>
-<li>PMC部 部门负责人</li>
-</ul>
-<h3 id="How"><a href="#How" class="headerlink" title="How"></a>How</h3><ul>
-<li>工单入库超数会有对应报表自动每天邮件分发！如有超数，PMC部应根据 <strong>物料交易历史记录</strong>情况邮件主导各部门按流程完成更改！</li>
-</ul>
-<h3 id="How-much"><a href="#How-much" class="headerlink" title="How much"></a>How much</h3><ul>
-<li><p>由PMC部根据实际错误原因提交邮件说明，通知各涉及部门协助配合。</p>
-</li>
-<li><p>由PMC部提交纠正措施，避免问题再次产生。</p>
-</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Fin</category>
-      </categories>
-      <tags>
-        <tag>epicor</tag>
-        <tag>财务</tag>
-        <tag>工单</tag>
-        <tag>工单入库成本</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>有关单位换算比例与实际差异相关问题</title>
-    <url>/2022/08/03/FIN/fin20220803/</url>
-    <content><![CDATA[<h1 id="有关单位换算比例与实际差异相关问题"><a href="#有关单位换算比例与实际差异相关问题" class="headerlink" title="有关单位换算比例与实际差异相关问题"></a>有关单位换算比例与实际差异相关问题</h1><blockquote>
-<p>针对问题，利用5W2H分析法来解决。<br><img src="/img/FIN/Fin20220707.png" alt="5W2H原因分析法"></p>
-</blockquote>
-<h3 id="Why"><a href="#Why" class="headerlink" title="Why"></a>Why</h3><ul>
-<li>胶板采购单按实际重量收货后，如&gt;标准重，造成PO的我方数量（PCS）未交货数减少,而产生新的物料需求。</li>
-<li>胶板采购单按实际重量收货后，如&lt;标准重，造成PO的我方数量（PCS）未交货数增加,而减少物料需求。</li>
-<li>对应PO产生采购差异。</li>
-<li>Epicor外挂系统 PO检查对比数据<blockquote>
-<p><img src="/img/FIN/bc01.png" alt="PO检查"><br>图①② 采购订单按标准换算比例计算 470PCS&#x3D;84.6847KG<br>图③④  采购收货时，按实际重量对应 100PCS&#x3D;18.65KG  100PCS&#x3D;19KG<br>图⑤⑥  采购收货时，按实际重量，按物料换算比例1KG&#x3D;5.55PCS 计算得 18.65KG&#x3D;103.5075PCS 19KG&#x3D;105.45PCS<br>图⑦⑧  应付发票按实际重量付款，对应收货数量为 18.65KG&#x3D;103.5075PCS 19KG&#x3D;105.45PCS</p>
-</blockquote>
-</li>
-<li>影响物料需求示例<blockquote>
-<p><img src="/img/FIN/bc02.png" alt="PO检查"><br>图①  采购收货实际数量为200PCS，正常采购在途为270PCS ，但时间段是按实际收货公斤数及物料换算比例计算的PCS数来扣除采购单。即470-103.5075-105.45&#x3D;261.04  PCS   （问题产生点）<br>图② 采购数据为470PCS</p>
-</blockquote>
-</li>
-</ul>
-<h3 id="What"><a href="#What" class="headerlink" title="What"></a>What</h3><ul>
-<li>因供应商会按实际重量收货，故需按数据修正物料单位换算比例。尽量控制到±5%。</li>
-</ul>
-<h3 id="Where"><a href="#Where" class="headerlink" title="Where"></a>Where</h3><ul>
-<li>Epicor外挂系统里时间段查询 是按PCS来计算采购未结，可供采购员数据参考。<blockquote>
-<p><img src="/img/FIN/bc03.png" alt="PO检查"><br>图① 采购在途是按采购收货的PCS数量来计算采购未交数。<br>图② 时间段结余供采购员输入新采购数量参考。</p>
-</blockquote>
-</li>
-</ul>
-<h3 id="When"><a href="#When" class="headerlink" title="When"></a>When</h3><ul>
-<li>胶板采购单输入时，需按PCS核算物料需求，如按时间段会存在差异。</li>
-</ul>
-<h3 id="Who"><a href="#Who" class="headerlink" title="Who"></a>Who</h3><ul>
-<li>采购部：采购单输入人员</li>
-<li>工程部：确定胶板实际重量合理性</li>
-<li>胶板部：本厂胶板实际重量合理性</li>
-</ul>
-<h3 id="How"><a href="#How" class="headerlink" title="How"></a>How</h3><ul>
-<li>Epicor 数据库邮件通知胶板收货换算与物料设置换算比例差异。</li>
-</ul>
-<h3 id="How-much"><a href="#How-much" class="headerlink" title="How much"></a>How much</h3><ul>
-<li>季度或者半年一次，针对胶板换算比例，分析换算比例差异原因，按PO收货数据批量调整物料单位换算比例。</li>
-</ul>
-]]></content>
-      <categories>
-        <category>Fin</category>
-      </categories>
-      <tags>
-        <tag>epicor</tag>
-        <tag>工程</tag>
-        <tag>财务</tag>
-        <tag>采购</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>珠海龙队骑行记录</title>
-    <url>/2024/07/12/Loongbike/lg20240712/</url>
-    <content><![CDATA[<h1 id="珠海龙队晨骑记录"><a href="#珠海龙队晨骑记录" class="headerlink" title="珠海龙队晨骑记录"></a>珠海龙队晨骑记录</h1><div class="timeline pink"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>2024</p>
-</div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-15</p>
-</div></div><div class='timeline-item-content'><div class="gallery-container" data-type="data" data-button="">
-      <div class="gallery-data">[{"url":"/img/Loongbike/2024071501.png","alt":""}]</div>
-      <div class="gallery-items">
-      </div>
-    </div>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-14</p>
-</div></div><div class='timeline-item-content'><div class="gallery-container" data-type="data" data-button="">
-      <div class="gallery-data">[{"url":"/img/Loongbike/2024071401.png","alt":""}]</div>
-      <div class="gallery-items">
-      </div>
-    </div>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-13</p>
-</div></div><div class='timeline-item-content'><div class="gallery-container" data-type="data" data-button="">
-      <div class="gallery-data">[{"url":"/img/Loongbike/2024071300.png","alt":""},{"url":"/img/Loongbike/2024071301.png","alt":""}]</div>
-      <div class="gallery-items">
-      </div>
-    </div>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-12</p>
-</div></div><div class='timeline-item-content'><div class="gallery-container" data-type="data" data-button="">
-      <div class="gallery-data">[{"url":"/img/Loongbike/2024071200.png","alt":""}]</div>
-      <div class="gallery-items">
-      </div>
-    </div>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-11</p>
-</div></div><div class='timeline-item-content'><div class="gallery-container" data-type="data" data-button="">
-      <div class="gallery-data">[{"url":"/img/Loongbike/2024071101.jpg","alt":""}]</div>
-      <div class="gallery-items">
-      </div>
-    </div>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-10</p>
-</div></div><div class='timeline-item-content'><div class="gallery-container" data-type="data" data-button="">
-      <div class="gallery-data">[{"url":"/img/Loongbike/2024071000.jpg","alt":""}]</div>
-      <div class="gallery-items">
-      </div>
-    </div>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-09</p>
-</div></div><div class='timeline-item-content'><div class="gallery-container" data-type="data" data-button="">
-      <div class="gallery-data">[{"url":"/img/Loongbike/2024070900.jpg","alt":""}]</div>
-      <div class="gallery-items">
-      </div>
-    </div>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-05</p>
-</div></div><div class='timeline-item-content'><div class="gallery-container" data-type="data" data-button="">
-      <div class="gallery-data">[{"url":"/img/Loongbike/2024070500.jpg","alt":""}]</div>
-      <div class="gallery-items">
-      </div>
-    </div>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-04</p>
-</div></div><div class='timeline-item-content'><div class="gallery-container" data-type="data" data-button="">
-      <div class="gallery-data">[{"url":"/img/Loongbike/2024070400.jpg","alt":""}]</div>
-      <div class="gallery-items">
-      </div>
-    </div>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-03</p>
-</div></div><div class='timeline-item-content'><div class="gallery-container" data-type="data" data-button="">
-      <div class="gallery-data">[{"url":"/img/Loongbike/2024070300.jpg","alt":""},{"url":"/img/Loongbike/2024070301.jpg","alt":""}]</div>
-      <div class="gallery-items">
-      </div>
-    </div>
-</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-02</p>
-</div></div><div class='timeline-item-content'><div class="gallery-container" data-type="data" data-button="">
-      <div class="gallery-data">[{"url":"/img/Loongbike/2024070201.jpg","alt":""}]</div>
-      <div class="gallery-items">
-      </div>
-    </div>
-</div></div></div>
-
-<!-- 
-<div class="gallery-group-main">
-<figure class="gallery-group">
-  <img class="gallery-group-img no-lightbox" src='/img/Loongbike/20240712/2024071200.png' alt="Group Image Gallery">
-  <figcaption>
-  <div class="gallery-group-name">晨骑横石基</div>
-  <p>美好生活从骑行开始</p>
-  <a href='/img/Loongbike/20240712/'></a>
-  </figcaption>
-  </figure>
-  
-</div> -->
-
-<hr>
-]]></content>
-      <categories>
-        <category>龙队</category>
-      </categories>
-      <tags>
-        <tag>龙队</tag>
-        <tag>横石基</tag>
-        <tag>骑行</tag>
-        <tag>晨骑</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>订单式购买对应采购单交货未齐处置方法</title>
-    <url>/2022/01/10/WF/wf202201/</url>
-    <content><![CDATA[<h1 id="订单式购买对应采购单交货未齐处置方法"><a href="#订单式购买对应采购单交货未齐处置方法" class="headerlink" title="订单式购买对应采购单交货未齐处置方法"></a>订单式购买对应采购单交货未齐处置方法</h1><mark class="hl-label pink">建议外厂销售订单备注采购订单号及行号！</mark> 
-<div class="mermaid-wrap"><pre class="mermaid-src" hidden>
-  graph LR;
-    客户销售订单--&gt;采购订单;
-    采购订单-- 收货 --&gt;仓库401-01;
-    客户销售订单-- 出货 --&gt;仓库401-01;
-    采购订单-- 差数 --&gt;外厂销售订单;
-    外厂销售订单-- 出货 --&gt;仓库401-05;
-    仓库401-05--&gt;采购订单;
-  </pre></div>
-
-
-
-]]></content>
-      <categories>
-        <category>外发</category>
-      </categories>
-      <tags>
-        <tag>erp</tag>
-        <tag>epicor</tag>
-        <tag>PMC</tag>
-        <tag>外发</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>销售订单输入帮助及注意事项</title>
-    <url>/2022/01/10/order/order202201/</url>
-    <content><![CDATA[<h1 id="款号价格输入"><a href="#款号价格输入" class="headerlink" title="款号价格输入"></a>款号价格输入</h1><blockquote>
-<mark class="hl-label default">注：图片数据为测试数据</mark> 
-</blockquote>
-<h2 id="价目表输入"><a href="#价目表输入" class="headerlink" title="价目表输入"></a>价目表输入</h2><blockquote>
-<ol>
-<li>价格表旁边输入框为价目表编号，<mark class="hl-label pink">要求：编号与客户编码尽量一致</mark> 。</li>
-<li>开始日期 销售订单的订单日期须在此日期之后，才能获取报价。</li>
-<li>结束日期 销售订单的订单日期须在此日期之前，才能获取报价。</li>
-<li><mark class="hl-label default">货币必选RMB</mark> 。</li>
-<li>报价单位与物料销售单位一致，不可变更。</li>
-<li>基本单价为出厂价，最终客户单价为外币价。<br><img src="/img/Order/Order20220110-01.png" alt="价目表输入"></li>
-</ol>
-</blockquote>
-<h2 id="价目表批量输入"><a href="#价目表批量输入" class="headerlink" title="价目表批量输入"></a>价目表批量输入</h2><blockquote>
-<ol>
-<li>刷新-&gt;选择自己跟的客户。</li>
-<li>右键导出Excel数据，对比栏位，输入新的款号报价资料。</li>
-<li>选择新的款号数据，右键粘贴导入数据表中。<mark class="hl-label red">因涉及批量数据导入，如有不明，多问确定后再导入</mark> 。
-<img src="/img/Order/Order20220110-02.png" alt="客户价目表"></li>
-</ol>
-</blockquote>
-<hr>
-<h1 id="客户维护-–-增加客户对应价目表"><a href="#客户维护-–-增加客户对应价目表" class="headerlink" title="客户维护 –&gt;增加客户对应价目表"></a>客户维护 –&gt;增加客户对应价目表</h1><blockquote>
-<ol>
-<li>按图点击位置。</li>
-<li>新客户价目表。</li>
-<li>代码输入价目表编号。<br><img src="/img/Order/Order20220110-03.png" alt="客户维护"></li>
-</ol>
-</blockquote>
-<hr>
-<h1 id="销售订单输入注意事项"><a href="#销售订单输入注意事项" class="headerlink" title="销售订单输入注意事项"></a>销售订单输入注意事项</h1><blockquote>
-<mark class="hl-label orange">(订单单价不可以为零，切记！！)</mark> 
-</blockquote>
-<h2 id="界面-汇总"><a href="#界面-汇总" class="headerlink" title="界面-&gt;汇总"></a>界面-&gt;汇总</h2><blockquote>
-<ol>
-<li>PO 为客户的采购单号。</li>
-<li>订单日期  注价目表的开始日期须在此日期之前。</li>
-<li>需求日期及出货日 <mark class="hl-label red">必填字段</mark> 。</li>
-<li>自动开票 此处不可以勾选。<br><img src="/img/Order/Order20220110-04.png" alt="销售订单-汇总"></li>
-</ol>
-</blockquote>
-<h2 id="界面-发货"><a href="#界面-发货" class="headerlink" title="界面-&gt;发货"></a>界面-&gt;发货</h2><blockquote>
-<ol>
-<li>确定发货 必填项。</li>
-<li>直接生产 如本厂生产，默认勾选。</li>
-<li>订单式购买 如外购成品，默认勾选。<br><img src="/img/Order/Order20220110-05.png" alt="销售订单-发货"></li>
-</ol>
-</blockquote>
-<h2 id="订单式购买-对应供应商及PO"><a href="#订单式购买-对应供应商及PO" class="headerlink" title="订单式购买 -&gt;对应供应商及PO"></a>订单式购买 -&gt;对应供应商及PO</h2><blockquote>
-<ol>
-<li>供应商 外购成品供应商，<mark class="hl-label purple">PO只能对应此供应商下单</mark> 。</li>
-<li>PO  对应采购单如输入，将显示单号。</li>
-<li>订单式购买+直接出货。货不回厂，直接由供应商送货到客户。默认由物料主档资料代入。<br><img src="/img/Order/Order20220110-06.png" alt="销售订单-订单式购买"></li>
-</ol>
-</blockquote>
-<hr>
-<h1 id="重整价目表、锁定单价与订单数量等关系"><a href="#重整价目表、锁定单价与订单数量等关系" class="headerlink" title="重整价目表、锁定单价与订单数量等关系"></a>重整价目表、锁定单价与订单数量等关系</h1><h2 id="1-重整价目表-×-锁定单价-×-与报价及数量变更前后变化"><a href="#1-重整价目表-×-锁定单价-×-与报价及数量变更前后变化" class="headerlink" title="1. 重整价目表 × 锁定单价 × 与报价及数量变更前后变化"></a>1. 重整价目表 <kbd>×</kbd> 锁定单价 <kbd>×</kbd> 与报价及数量变更前后变化</h2><blockquote>
-<h3 id="1-1-变更前"><a href="#1-1-变更前" class="headerlink" title="1.1 变更前"></a>1.1 变更前</h3><p><img src="/img/Order/Order20220110-07.png" alt="变更前报价"><br><img src="/img/Order/Order20220110-09.png" alt="前更前销售订单"></p>
-<h3 id="1-2-变更后"><a href="#1-2-变更后" class="headerlink" title="1.2 变更后"></a>1.2 变更后</h3><p><img src="/img/Order/Order20220110-08.png" alt="变更后报价"><br><img src="/img/Order/Order20220110-13.png" alt="前更后销售订单"></p>
-</blockquote>
-<h2 id="2-重整价目表-√-锁定单价-×-与报价及数量变更前后变化"><a href="#2-重整价目表-√-锁定单价-×-与报价及数量变更前后变化" class="headerlink" title="2. 重整价目表 √ 锁定单价 × 与报价及数量变更前后变化"></a>2. 重整价目表 <kbd>√</kbd> 锁定单价 <kbd>×</kbd> 与报价及数量变更前后变化</h2><blockquote>
-<h3 id="2-1-变更前"><a href="#2-1-变更前" class="headerlink" title="2.1 变更前"></a>2.1 变更前</h3><p><img src="/img/Order/Order20220110-07.png" alt="变更前报价"><br><img src="/img/Order/Order20220110-10.png" alt="前更前销售订单"></p>
-<h3 id="2-2-变更后"><a href="#2-2-变更后" class="headerlink" title="2.2 变更后"></a>2.2 变更后</h3><p><img src="/img/Order/Order20220110-08.png" alt="变更后报价"><br><img src="/img/Order/Order20220110-14.png" alt="前更后销售订单"></p>
-</blockquote>
-<h2 id="3-重整价目表-×-锁定单价-√-与报价及数量变更前后变化"><a href="#3-重整价目表-×-锁定单价-√-与报价及数量变更前后变化" class="headerlink" title="3. 重整价目表 × 锁定单价  √ 与报价及数量变更前后变化"></a>3. 重整价目表 <kbd>×</kbd> 锁定单价  <kbd>√</kbd> 与报价及数量变更前后变化</h2><blockquote>
-<h3 id="3-1-变更前"><a href="#3-1-变更前" class="headerlink" title="3.1 变更前"></a>3.1 变更前</h3><p><img src="/img/Order/Order20220110-07.png" alt="变更前报价"><br><img src="/img/Order/Order20220110-11.png" alt="前更前销售订单"></p>
-<h3 id="3-2-变更后"><a href="#3-2-变更后" class="headerlink" title="3.2 变更后"></a>3.2 变更后</h3><p><img src="/img/Order/Order20220110-08.png" alt="变更后报价"><br><img src="/img/Order/Order20220110-15.png" alt="前更后销售订单"></p>
-</blockquote>
-<h2 id="4-重整价目表-√-锁定单价-√-与报价及数量变更前后变化"><a href="#4-重整价目表-√-锁定单价-√-与报价及数量变更前后变化" class="headerlink" title="4. 重整价目表 √ 锁定单价  √ 与报价及数量变更前后变化"></a>4. 重整价目表 <kbd>√</kbd> 锁定单价  <kbd>√</kbd> 与报价及数量变更前后变化</h2><blockquote>
-<h3 id="4-1-变更前"><a href="#4-1-变更前" class="headerlink" title="4.1 变更前"></a>4.1 变更前</h3><p><img src="/img/Order/Order20220110-07.png" alt="变更前报价"><br><img src="/img/Order/Order20220110-12.png" alt="前更前销售订单"></p>
-<h3 id="4-2-变更后"><a href="#4-2-变更后" class="headerlink" title="4.2 变更后"></a>4.2 变更后</h3><p><img src="/img/Order/Order20220110-08.png" alt="变更后报价"><br><img src="/img/Order/Order20220110-16.png" alt="前更后销售订单"></p>
-</blockquote>
-<hr>
-]]></content>
-      <categories>
-        <category>Order</category>
-      </categories>
-      <tags>
-        <tag>erp</tag>
-        <tag>epicor</tag>
-        <tag>sa</tag>
-        <tag>业务部</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>订单式购买的销售订单多出处理办法</title>
-    <url>/2022/01/20/order/order202202/</url>
-    <content><![CDATA[<blockquote>
-<p>针对订单式购买的销售订单，供应商有多送数量，经与客户沟通可以多出货。对应epicor系统处理方式如下</p>
-</blockquote>
-<h1 id="销售订单"><a href="#销售订单" class="headerlink" title="销售订单"></a>销售订单</h1><blockquote>
-<mark class="hl-label pink">销售订单不可以更改原订单行的数量</mark> ，必须新增行，输入对应款号及多出的数量。
-<p><img src="/img/Order/Order202202001.png" alt="销售订单处理"></p>
-</blockquote>
-<h1 id="采购订单"><a href="#采购订单" class="headerlink" title="采购订单"></a>采购订单</h1><blockquote>
-<p>采购订单需在原有订单增加行，输入原有销售订单号及对应的新增行。<mark class="hl-label pink">如采购订单已经审核，需反审核后处理</mark> 。<br><img src="/img/Order/Order202202002.png" alt="采购订单处理"></p>
-</blockquote>
-<h1 id="采购收货及销售出货单输入"><a href="#采购收货及销售出货单输入" class="headerlink" title="采购收货及销售出货单输入"></a>采购收货及销售出货单输入</h1><blockquote>
-<p>采购收货及销售出货单输入方法不变！</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Order</category>
-      </categories>
-      <tags>
-        <tag>erp</tag>
-        <tag>epicor</tag>
-        <tag>sa</tag>
-        <tag>业务部</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Epicor客户资料输入</title>
-    <url>/2022/06/01/order/order202203/</url>
-    <content><![CDATA[<h1 id="Epicor客户资料输入"><a href="#Epicor客户资料输入" class="headerlink" title="Epicor客户资料输入"></a>Epicor客户资料输入</h1><h3 id="客户-明细"><a href="#客户-明细" class="headerlink" title="客户-&gt;明细"></a>客户-&gt;明细</h3><blockquote>
-<ol>
-<li>因多个类型客户，故客户编码规则有多个，请对应类型顺序编码。可点客户<font color=pink><strong>按钮</strong></font>查看。</li>
-<li><font style="background:blue">客户</font>全名。</li>
-<li>类型选择 客户 。</li>
-<li>客户简称。尽量缩小字符，便于公司内部沟通。</li>
-<li>客户具体地址输入。</li>
-<li>因业务部内部分组权限，按组选择自己对应销售地区代码。</li>
-<li>对应组销售人员选择。</li>
-</ol>
-<p><img src="/img/Order/Customer001.png" alt="客户"></p>
-</blockquote>
-<h3 id="客户-帐单"><a href="#客户-帐单" class="headerlink" title="客户-&gt;帐单"></a>客户-&gt;帐单</h3><blockquote>
-<ol>
-<li>货币必选RMB.&gt;</li>
-<li>帐单期限-&gt;条款</li>
-<li>出货条款-&gt;</li>
-<li>运送方法</li>
-</ol>
-<p><img src="/img/Order/Customer002.png" alt="客户"></p>
-</blockquote>
-<h3 id="客户-帐单-替代"><a href="#客户-帐单-替代" class="headerlink" title="客户-&gt;帐单-&gt;替代"></a>客户-&gt;帐单-&gt;替代</h3><blockquote>
-<ol>
-<li>替代付款人-&gt;HKO。</li>
-<li>默认付款人 勾选。</li>
-</ol>
-<p><img src="/img/Order/Customer003.png" alt="客户"></p>
-</blockquote>
-<h3 id="客户-客户币种"><a href="#客户-客户币种" class="headerlink" title="客户-&gt; 客户币种"></a>客户-&gt; 客户币种</h3><blockquote>
-<ol>
-<li>最终客户订单币种 香港公司与客户合同付款币种。</li>
-</ol>
-<p><img src="/img/Order/Customer004.png" alt="客户"></p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>Order</category>
-      </categories>
-      <tags>
-        <tag>erp</tag>
-        <tag>epicor</tag>
-        <tag>sa</tag>
-        <tag>业务部</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>邹志英的漫话管理会计</title>
     <url>/2022/02/15/Book/guanlikuaiji/</url>
     <content><![CDATA[<h1 id="志英十一大观点简介"><a href="#志英十一大观点简介" class="headerlink" title="志英十一大观点简介"></a>志英十一大观点简介</h1><h2 id="观点1"><a href="#观点1" class="headerlink" title="观点1"></a>观点1</h2><blockquote>
@@ -1437,8 +541,178 @@
       </categories>
       <tags>
         <tag>erp</tag>
-        <tag>财务</tag>
         <tag>管理会计</tag>
+        <tag>财务</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>邓亚萍《心力》读书笔记</title>
+    <url>/2022/02/13/Book/xinli/</url>
+    <content><![CDATA[<h1 id="心态提升"><a href="#心态提升" class="headerlink" title="心态提升"></a>心态提升</h1><h2 id="01-思维阻断：给情绪安装开关，就能控制焦虑"><a href="#01-思维阻断：给情绪安装开关，就能控制焦虑" class="headerlink" title="01.思维阻断：给情绪安装开关，就能控制焦虑"></a>01.思维阻断：给情绪安装开关，就能控制焦虑</h2><h3 id="思维阻断-Thought-Stopping"><a href="#思维阻断-Thought-Stopping" class="headerlink" title="思维阻断 Thought Stopping"></a>思维阻断 Thought Stopping</h3><blockquote>
+<p>提炼出处<br>运动心理学家 Zinsser,N.,Bunker,L.。</p>
+</blockquote>
+<blockquote>
+<p>简述<br>大脑对“禁止”的反应速度慢于“命令”，要自己“别想了”只会想得更多。正确的做法是提高自己“走神的能力”，在重要关头，靠转移注意力摆脱坏念头。</p>
+</blockquote>
+<blockquote>
+<p>适用场景<br>考场中，因心态紧张而大脑空白，这个方法有助于及时止损，避免崩盘。</p>
+</blockquote>
+<blockquote>
+<p>使用方法<br>设计你的“专属小动作”，在掉链子的时候，可以通过做这个动作适度走神。</p>
+</blockquote>
+<h3 id="瓦伦达效应-Wallenda-Effect"><a href="#瓦伦达效应-Wallenda-Effect" class="headerlink" title="瓦伦达效应 Wallenda Effect"></a>瓦伦达效应 Wallenda Effect</h3><blockquote>
+<p>简述<br>指为了达到一种目的而总是患得患失的心态</p>
+</blockquote>
+<blockquote>
+<p>来历<br>卡尔·瓦伦达是美国著名的高空走钢索表演者，他在一次重大的表演中不幸失足身亡。<br>他的妻子事后说：我知道这次一定会出事。因为他上场前总不停地说：“这次太重要了，不能失败”。而以前每次成功的表演，他总想着走钢丝这件事本身，而不去管这个事可能带来的一切。</p>
+</blockquote>
+<h3 id="邓亚萍总结"><a href="#邓亚萍总结" class="headerlink" title="邓亚萍总结"></a>邓亚萍总结</h3><blockquote>
+<p>第一，面对失误，最忌讳的就是反复提醒自己冷静，同时注意力却深陷其中。<br>第二，真正的赢家，会用思维阻断的方法，找到一件可以短暂分心并且全心投入的事情，主动给自己创造走神时刻。</p>
+</blockquote>
+<h2 id="02-失败清单：认清“失控感”，最大限度控制意外"><a href="#02-失败清单：认清“失控感”，最大限度控制意外" class="headerlink" title="02.失败清单：认清“失控感”，最大限度控制意外"></a>02.失败清单：认清“失控感”，最大限度控制意外</h2><h3 id="失败清单-Failure-List"><a href="#失败清单-Failure-List" class="headerlink" title="失败清单 Failure List"></a>失败清单 Failure List</h3><blockquote>
+<p>提炼出处<br>心理学家 Kelly McGonigal.</p>
+</blockquote>
+<blockquote>
+<p>简述<br>意外状况不可怕，“失控感”才可怕。所以，面对意外状况，要设计一个“失败清单”，这样一来，发生意外状况，大脑会认为“一切还在掌控中”。</p>
+</blockquote>
+<blockquote>
+<p>适用场景<br>考题超出准备，遇到犀利的面试官，演讲、汇报时发生突发状况等。</p>
+</blockquote>
+<blockquote>
+<p>使用方法<br>用游戏的心态，预设会发生的意外状况，并写在小卡片上。</p>
+</blockquote>
+<h3 id="邓亚萍总结-1"><a href="#邓亚萍总结-1" class="headerlink" title="邓亚萍总结"></a>邓亚萍总结</h3><blockquote>
+<p>第一，面对意外状况，最忌讳“糟了！完蛋了！”这种心理暗示。<br>第二，赢家会用失败清单，说服自己确认“一切还在掌控中”。</p>
+</blockquote>
+<h2 id="03-迷信习惯：给自己设计一个小动作，做好心理暗示"><a href="#03-迷信习惯：给自己设计一个小动作，做好心理暗示" class="headerlink" title="03.迷信习惯：给自己设计一个小动作，做好心理暗示"></a>03.迷信习惯：给自己设计一个小动作，做好心理暗示</h2><h3 id="运动员的小迷信-Superstitions"><a href="#运动员的小迷信-Superstitions" class="headerlink" title="运动员的小迷信 Superstitions"></a>运动员的小迷信 Superstitions</h3><blockquote>
+<p>提炼出处<br>顶尖运动员的经验。</p>
+</blockquote>
+<blockquote>
+<p>简述<br>运动场上充满太多不确定性，运动员为了增强“控制感”，都会用一些“幸运物” “幸运仪式” 来说服自己，相信自己是幸运的。和算命、锦鲤不同，这种“迷信”，是为了让自己有更好的表现。</p>
+</blockquote>
+<blockquote>
+<p>适用场景<br>大考、面试、重要工作汇报前的最后时刻，让你不被外力干扰，对自己的表现更有自信。</p>
+</blockquote>
+<h3 id="邓亚萍总结-2"><a href="#邓亚萍总结-2" class="headerlink" title="邓亚萍总结"></a>邓亚萍总结</h3><blockquote>
+<p>第一，迷信的重点不是你信不信，而是能够有效提升在不确定环境下，你对自己的控制力。迷信简单、粗暴、非理性，但是偏偏能管用。<br>第二，与其去盲从，听信一些别人给你推荐的小迷信，不如给自己精心设计一个小动作、小习惯。</p>
+</blockquote>
+<h2 id="04-自我激励：学会30度原则，才能时刻保持耐心"><a href="#04-自我激励：学会30度原则，才能时刻保持耐心" class="headerlink" title="04.自我激励：学会30度原则，才能时刻保持耐心"></a>04.自我激励：学会30度原则，才能时刻保持耐心</h2><h3 id="练习的心态-Practicing-Mind"><a href="#练习的心态-Practicing-Mind" class="headerlink" title="练习的心态 Practicing Mind"></a>练习的心态 Practicing Mind</h3><blockquote>
+<p>提炼出处<br>美国心理学者 Thomas M.Sterner.</p>
+</blockquote>
+<blockquote>
+<p>简述<br>随着年龄的增长，我们只盯着目标和成绩，内心充满压力和焦虑。在学习一项新技能进，经常刚开始就放弃；或者面对生活或工作中的挑战，无法耐心又专心地应对。人的大脑对结果的暗示效率极低，控制力极弱。</p>
+</blockquote>
+<blockquote>
+<p>适用场景<br>职场重要汇报、学校重要考试前，快速调整心态，增强自我鼓励。</p>
+</blockquote>
+<blockquote>
+<p>使用方法<br>自我鼓励的内容应关注过程而不是结果。更具体来说，“打好这一分球”比胜利更重要。</p>
+</blockquote>
+<h3 id="邓亚萍总结-3"><a href="#邓亚萍总结-3" class="headerlink" title="邓亚萍总结"></a>邓亚萍总结</h3><blockquote>
+<p>第一，自我激励不要想一步到位。你的大脑不会180度转向，相信你一定能赢。<br>第二，正确的方法是关注过程，激励自己把一件件小事做好，一次转30度。</p>
+</blockquote>
+<h2 id="05-角色定位：如何成为更强大的自己"><a href="#05-角色定位：如何成为更强大的自己" class="headerlink" title="05.角色定位：如何成为更强大的自己"></a>05.角色定位：如何成为更强大的自己</h2><h3 id="角色定位-Role-Definition"><a href="#角色定位-Role-Definition" class="headerlink" title="角色定位 Role Definition"></a>角色定位 Role Definition</h3><blockquote>
+<p>提炼出处<br>定位理论由美国著名营销专家艾·里斯（Al Ries）与杰克·特劳特（Jack Trout）提出</p>
+</blockquote>
+<blockquote>
+<p>简述<br>人的自信，有时来自于“我是谁”的设定。你要帮自己找到一个好的角色，用这个角色的心态去面对挑战。</p>
+</blockquote>
+<blockquote>
+<p>适用场景<br>需要达成一个目标，例如考试、考级、获得晋升，但缺乏自信或动力。</p>
+</blockquote>
+<blockquote>
+<p>使用方法<br>给自己设定一个“角色定位”，并不断向期靠拢。</p>
+</blockquote>
+<h3 id="邓亚萍总结-4"><a href="#邓亚萍总结-4" class="headerlink" title="邓亚萍总结"></a>邓亚萍总结</h3><blockquote>
+<p>人的自信，有时来自“我是谁”的设定。你要帮自己找到一个好的角色，用这个角色的心态去面对挑战。</p>
+</blockquote>
+<h2 id="06-如何用特定动作唤醒“强大人格”？"><a href="#06-如何用特定动作唤醒“强大人格”？" class="headerlink" title="06.如何用特定动作唤醒“强大人格”？"></a>06.如何用特定动作唤醒“强大人格”？</h2><h3 id="人设加强-Role-Enhancement"><a href="#人设加强-Role-Enhancement" class="headerlink" title="人设加强 Role Enhancement"></a>人设加强 Role Enhancement</h3><blockquote>
+<p>提炼出处<br>“认知行为矫正法”，由心理治疗专家梅钦鲍姆（Donald Meichenbaum）提出，是用来改善负面负面情绪的心理治疗理论。</p>
+</blockquote>
+<blockquote>
+<p>简述<br>不是自我认知指导行为，而是行为反过来塑造自我认知。刻意做一件和某人设相符的事，就会加强自我设定，让自己更加相信自己这样的人。</p>
+</blockquote>
+<blockquote>
+<p>适用场景<br>考试、面试、谈判、汇报等，需要自信的场合。</p>
+</blockquote>
+<blockquote>
+<p>使用方法<br>1.找到一个让自己有自信的人设；<br>2.刻意做和这个人设相符合的事，让你真实地相信自己。</p>
+</blockquote>
+<h3 id="邓亚萍总结-5"><a href="#邓亚萍总结-5" class="headerlink" title="邓亚萍总结"></a>邓亚萍总结</h3><blockquote>
+<p>第一，很多时候，不是自我认知指导行为，是行为塑造自我认知。<br>第二，想要唤醒自己 “强大的一面”，要靠特定的动作。<br>第三，找到自己最强大的物质，主动做一些和这种物质相符合的事。</p>
+</blockquote>
+<h2 id="07-好的对手会让你遇强则强"><a href="#07-好的对手会让你遇强则强" class="headerlink" title="07.好的对手会让你遇强则强"></a>07.好的对手会让你遇强则强</h2><h3 id="竞争与潜能-Competition-and-Potential"><a href="#竞争与潜能-Competition-and-Potential" class="headerlink" title="竞争与潜能 Competition and Potential"></a>竞争与潜能 Competition and Potential</h3><blockquote>
+<p>简述<br>良性竞争会带来动力增长，激发潜能。<br>竞争会激发潜能，但是竞争和潜能不是线性关系，而是“倒U曲线”关系，要选择合适的对手。<br>你看待竞争的角度决定了你面对竞争的心态，竞争是挑战而不是威胁。<br>竞争的意义不是争，而是竞。不是为了打败对手，而是为了更早达到目标。</p>
+</blockquote>
+<h3 id="邓亚萍总结-6"><a href="#邓亚萍总结-6" class="headerlink" title="邓亚萍总结"></a>邓亚萍总结</h3><blockquote>
+<p>首先，如果你遇到了一个竞争对手，那恭喜你，这可能标志着你在进步。<br>其次，怎么看待竞争取决于你的关注点，竞争是挑战、是机会、而不是威胁。<br>最后，选择一个合适的对手才能给你动力，也不让自己太有挫败感。<br>其实竞争永远不是最终目的，真正目的是不断挑战，自我成长。</p>
+</blockquote>
+<h1 id="效率提升"><a href="#效率提升" class="headerlink" title="效率提升"></a>效率提升</h1><h2 id="08-执行意图：大脑服从“自动程序”，对抗拖延症"><a href="#08-执行意图：大脑服从“自动程序”，对抗拖延症" class="headerlink" title="08.执行意图：大脑服从“自动程序”，对抗拖延症"></a>08.执行意图：大脑服从“自动程序”，对抗拖延症</h2><h3 id="执行意图-Implementation-Intention"><a href="#执行意图-Implementation-Intention" class="headerlink" title="执行意图 Implementation Intention"></a>执行意图 Implementation Intention</h3><blockquote>
+<p>提炼出处<br>纽约大学心理系教授 Peter Gollwitzier</p>
+</blockquote>
+<blockquote>
+<p>简述<br>拖延症产生的一大原因，是大脑会在决策时纳入各种意外因素进行考量。也就是说，偷懒总会战胜坚持。因此，如果能有针对具体场景的“预先设定”，大脑就可以路过决策阶段，自动自发去完成你设定的任务。</p>
+</blockquote>
+<blockquote>
+<p>适用场景<br>锻炼、学习场景、处理每日待办琐事。</p>
+</blockquote>
+<blockquote>
+<p>使用方法<br>在大脑里设定公式：“每到X场景，就要做Y事”。</p>
+</blockquote>
+<blockquote>
+<p>邓亚萍总结<br>第一，大脑不喜欢僵局，大脑喜欢你给它具体的指示。<br>第二，要给大脑明确的指示：我到X场景，就必须做Y事。</p>
+</blockquote>
+<h2 id="09-例外控制：如何即保证休息，又保证高效"><a href="#09-例外控制：如何即保证休息，又保证高效" class="headerlink" title="09.例外控制：如何即保证休息，又保证高效"></a>09.例外控制：如何即保证休息，又保证高效</h2><h3 id="例外控制-Exception-Management"><a href="#例外控制-Exception-Management" class="headerlink" title="例外控制 Exception Management"></a>例外控制 Exception Management</h3><blockquote>
+<p>提炼出处<br>纽约大学心理系教授 Gabriele Oettingen.</p>
+</blockquote>
+<blockquote>
+<p>简述<br>人天生具有惰性。因此，在制定计划之前，要预先设想执行过程中可能遇到的阻碍，并为这些阻碍设置好备案。<br>比如计划跑步，就必须预料到自己可能会加班太累、不愿出门，备案可以是在家仰卧起坐。</p>
+</blockquote>
+<blockquote>
+<p>适用场景<br>读书太疲倦，需要打个盹；工作压力太大，想刷会儿抖音。恰当地应对疲倦、压力，能够张弛有度。</p>
+</blockquote>
+<blockquote>
+<p>使用方法<br>预先设想可能发生的例外状况，并提前做好备案；如果发生X例外情况，那么就应该做Y事。</p>
+</blockquote>
+<h3 id="邓亚萍总结-7"><a href="#邓亚萍总结-7" class="headerlink" title="邓亚萍总结"></a>邓亚萍总结</h3><blockquote>
+<p>第一，不要强迫自己一直工作或学习，主动放松才能更快进步。<br>第二，休息的时候，感性大脑很容易就会接管大脑，让人控制不了惰性。<br>第三，可以设定一个“如果发生X例外情况，那么就应该做Y事”的条件句，拒绝感性接管大脑。<br>此外，WOOP(wish,outcome,obstacle,plan)思考法是对习惯养成和计划执行非常有帮助的一种方法。</p>
+</blockquote>
+<h1 id="抗压训练"><a href="#抗压训练" class="headerlink" title="抗压训练"></a>抗压训练</h1><h1 id="意志力训练"><a href="#意志力训练" class="headerlink" title="意志力训练"></a>意志力训练</h1>]]></content>
+      <categories>
+        <category>Book</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>book</tag>
+        <tag>书</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>人民日报：高考各科最易犯这些错误，不看吃大亏！</title>
+    <url>/2022/06/06/Book/%E9%AB%98%E8%80%83%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9/</url>
+    <content><![CDATA[<h1 id="人民日报：高考各科最易犯这些错误，不看吃大亏！"><a href="#人民日报：高考各科最易犯这些错误，不看吃大亏！" class="headerlink" title="人民日报：高考各科最易犯这些错误，不看吃大亏！"></a>人民日报：高考各科最易犯这些错误，不看吃大亏！</h1><blockquote>
+<p>高考竞争，千军万马，一分之差就可能与你心仪的学校无缘。</p>
+</blockquote>
+<p><strong>高考各科最易犯的低级错误</strong></p>
+<p><img src="/img/GK/Gk01.jpg" alt="Gk01"></p>
+<p><img src="/img/GK/Gk02.jpg" alt="Gk02"></p>
+<p><img src="/img/GK/Gk03.jpg" alt="Gk03"></p>
+<p><strong>导致高考失分的十大低级错误</strong></p>
+<p><img src="/img/GK/Gk04.jpg" alt="Gk04"></p>
+<p><img src="/img/GK/Gk05.jpg" alt="Gk05"></p>
+<p><img src="/img/GK/Gk06.jpg" alt="Gk06"></p>
+<p><strong>高考应试的九个小窍门</strong></p>
+<p><img src="/img/GK/Gk07.jpg" alt="Gk07"></p>
+<p><img src="/img/GK/Gk08.jpg" alt="Gk08"></p>
+<p><img src="/img/GK/Gk09.jpg" alt="Gk09"></p>
+]]></content>
+      <categories>
+        <category>Book</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+        <tag>高考</tag>
+        <tag>人民日报</tag>
       </tags>
   </entry>
   <entry>
@@ -1779,6 +1053,732 @@
         <tag>USA</tag>
         <tag>战争</tag>
         <tag>历史</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>工程表单关联</title>
+    <url>/2022/02/06/Eng/eng20220206/</url>
+    <content><![CDATA[<h3 id="工程表单关联–-数据字典"><a href="#工程表单关联–-数据字典" class="headerlink" title="工程表单关联–&gt;数据字典"></a>工程表单关联–&gt;数据字典</h3><div class="mermaid-wrap"><pre class="mermaid-src" hidden>
+  graph LR;
+    Erp.Part--&gt;Erp.PartRev;
+    Erp.PartRev--&gt;Erp.PartOpr;
+    Erp.PartRev--&gt;Erp.PartMtl;
+    Erp.PartOpr--&gt;Erp.PartOpDtl;
+  </pre></div>
+
+<div class="mermaid-wrap"><pre class="mermaid-src" hidden>
+  graph LR;
+    Erp.ECOGroup--&gt;Erp.ECORev;
+    Erp.ECORev--&gt;Erp.ECOOpr;
+    Erp.ECORev--&gt;Erp.ECOMtl;
+    Erp.ECOOpr--&gt;Erp.ECOOpDtl;
+  </pre></div>
+
+<div class="mermaid-wrap"><pre class="mermaid-src" hidden>
+  graph LR;
+    Erp.QuoteDtl--&gt;Erp.QuoteAsm;
+    Erp.QuoteAsm--&gt;Erp.QuoteOpr;
+    Erp.QuoteAsm--&gt;Erp.QuoteMtl;
+    Erp.QuoteOpr--&gt;Erp.QuoteOpDtl;
+  </pre></div>
+
+<div class="mermaid-wrap"><pre class="mermaid-src" hidden>
+  graph LR;
+    Erp.JobHead--&gt;Erp.JobAsmbl;
+    Erp.JobAsmbl--&gt;Erp.JobOper;
+    Erp.JobAsmbl--&gt;Erp.JobMtl;
+    Erp.JobMtl--&gt;Erp.JobOpDtl;
+  </pre></div>]]></content>
+      <categories>
+        <category>ENG</category>
+      </categories>
+      <tags>
+        <tag>erp</tag>
+        <tag>epicor</tag>
+        <tag>工程</tag>
+        <tag>sql</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Epicor工单分次入库成本计算</title>
+    <url>/2022/02/11/FIN/Fin20220211/</url>
+    <content><![CDATA[<h3 id="工单多次入库成本计算模拟方式"><a href="#工单多次入库成本计算模拟方式" class="headerlink" title="工单多次入库成本计算模拟方式"></a>工单多次入库成本计算模拟方式</h3><blockquote>
+<p>前提: epicor系统平均成本核算方式<br>因工厂模式不同，生产分批工单入库后出货，入库外发成本会提前分摊。</p>
+</blockquote>
+<p><img src="/img/FIN/Fin20220211.png" alt="Epicor工单分次入库成本计算"></p>
+]]></content>
+      <categories>
+        <category>Fin</category>
+      </categories>
+      <tags>
+        <tag>财务</tag>
+        <tag>epicor</tag>
+        <tag>工单成本</tag>
+        <tag>工单</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>帐务类型(Transaction Type)</title>
+    <url>/2022/01/14/FIN/TranType/</url>
+    <content><![CDATA[<h1 id="帐务类型的应用"><a href="#帐务类型的应用" class="headerlink" title="帐务类型的应用"></a>帐务类型的应用</h1><blockquote>
+<p>使用“物料业务历史追踪”功能（即Part Transaction History Tracker,有时也称为帐务历史，交易历史查询等).<br><img src="/img/FIN/trantype02.png" alt="物料交易历史记录追踪"><br>注：这些历史记录的特点：<br>1.类型：即帐务类型（Transaction Type)。<br>2.数量：本笔操作的数量。注意：此数量的正负并不代表入库或出库，而是指该帐务类型的方向。<br>3.生产合计： 执行些操作后的库存数量。注：并非每笔操作都会引起库存数量的增减。以ADJ-CST(成本调整)为例，对库存无影响；同样的，尽管“PUR-INS”（采购收货后检验）的“数量”列不为0，但对库存也没有影响。</p>
+</blockquote>
+<h1 id="帐务类型举例"><a href="#帐务类型举例" class="headerlink" title="帐务类型举例"></a>帐务类型举例</h1><blockquote>
+<p><img src="/img/FIN/trantype01.png" alt="采购收货各步骤的帐务类型代码"></p>
+</blockquote>
+<h1 id="Epicor-系统帐务类型代码列表"><a href="#Epicor-系统帐务类型代码列表" class="headerlink" title="Epicor 系统帐务类型代码列表"></a>Epicor 系统帐务类型代码列表</h1><blockquote>
+<h2 id="Adjustments-调整类"><a href="#Adjustments-调整类" class="headerlink" title="Adjustments(调整类)"></a>Adjustments(调整类)</h2><table>
+<thead>
+<tr>
+<th align="left">代码</th>
+<th align="left">说明</th>
+<th align="left">备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">ADJ-CST</td>
+<td align="left">成本调整</td>
+<td align="left">调整单价:平均单价、最后一次价格、标准价格</td>
+</tr>
+<tr>
+<td align="left">ADJ-QTY</td>
+<td align="left">数量调整</td>
+<td align="left">常用于：盘点差异调整、工程样板</td>
+</tr>
+<tr>
+<td align="left">ADJ-PUR</td>
+<td align="left">采购差异调整</td>
+<td align="left">常用于：采购成本调整</td>
+</tr>
+<tr>
+<td align="left">ADJ-MTL</td>
+<td align="left">工单物料成本调整</td>
+<td align="left">常用于：工单调整-物料成本</td>
+</tr>
+<tr>
+<td align="left">ADJ-SUB</td>
+<td align="left">工单外发成本调整</td>
+<td align="left">常用于：工单调整-外发成本</td>
+</tr>
+</tbody></table>
+</blockquote>
+<blockquote>
+<h2 id="Discrepant-Material-Reporting-物料差异的报告"><a href="#Discrepant-Material-Reporting-物料差异的报告" class="headerlink" title="Discrepant Material Reporting(物料差异的报告)"></a>Discrepant Material Reporting(物料差异的报告)</h2><table>
+<thead>
+<tr>
+<th align="left">代码</th>
+<th align="left">说明</th>
+<th align="left">备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">DMR-REJ</td>
+<td align="left">判定不合格</td>
+<td align="left">对于采购收货而言，则意味着“最终判退”</td>
+</tr>
+<tr>
+<td align="left">DMR-STK</td>
+<td align="left">判定合格入库</td>
+<td align="left">对于采购收货而言，则意味着“特采”</td>
+</tr>
+</tbody></table>
+</blockquote>
+<blockquote>
+<h2 id="Inspection-Processing-（检验处理—基本上和我司目前的“初检”相对应）"><a href="#Inspection-Processing-（检验处理—基本上和我司目前的“初检”相对应）" class="headerlink" title="Inspection Processing （检验处理—基本上和我司目前的“初检”相对应）"></a>Inspection Processing （检验处理—基本上和我司目前的“初检”相对应）</h2><table>
+<thead>
+<tr>
+<th align="left">代码</th>
+<th align="left">说明</th>
+<th align="left">备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">INS-DMR</td>
+<td align="left">检验不合格</td>
+<td align="left">初检不合格，等待 MRB 处理</td>
+</tr>
+<tr>
+<td align="left">INS-STK</td>
+<td align="left">检验(合格)入库</td>
+<td align="left">初检合格入库</td>
+</tr>
+<tr>
+<td align="left">INS-REJ</td>
+<td align="left">检验到拒绝接收入</td>
+<td align="left">经检验不合格，拒绝接收</td>
+</tr>
+<tr>
+<td align="left">STK-INS</td>
+<td align="left">存货检验</td>
+<td align="left">将仓库存货进行检验</td>
+</tr>
+</tbody></table>
+</blockquote>
+<blockquote>
+<h2 id="Manufacturing-（生产类）"><a href="#Manufacturing-（生产类）" class="headerlink" title="Manufacturing （生产类）"></a>Manufacturing （生产类）</h2><table>
+<thead>
+<tr>
+<th align="left">代码</th>
+<th align="left">说明</th>
+<th align="left">备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">MFG-STK</td>
+<td align="left">生产线入库</td>
+<td align="left">目前常用于：成品入库</td>
+</tr>
+<tr>
+<td align="left">MFG-VAR</td>
+<td align="left">工单差异</td>
+<td align="left">目前常用于：工单关闭后系统过帐产生工单成本差异</td>
+</tr>
+</tbody></table>
+</blockquote>
+<blockquote>
+<h2 id="Purchasing-（采购收货类）"><a href="#Purchasing-（采购收货类）" class="headerlink" title="Purchasing （采购收货类）"></a>Purchasing （采购收货类）</h2><table>
+<thead>
+<tr>
+<th align="left">代码</th>
+<th align="left">说明</th>
+<th align="left">备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">PUR-INS</td>
+<td align="left">收货至检验</td>
+<td align="left">收货输入-检验</td>
+</tr>
+<tr>
+<td align="left">PUR-STK</td>
+<td align="left">收货至入库</td>
+<td align="left">收货输入-工单入库</td>
+</tr>
+<tr>
+<td align="left">PUR-SUB</td>
+<td align="left">收货到工单</td>
+<td align="left">收货输入-工单外发</td>
+</tr>
+<tr>
+<td align="left">PUR-UKN</td>
+<td align="left">辅料收货</td>
+<td align="left">收货输入-其它物料</td>
+</tr>
+</tbody></table>
+</blockquote>
+<blockquote>
+<h2 id="Shipments-（出货类，多用于成品）"><a href="#Shipments-（出货类，多用于成品）" class="headerlink" title="Shipments （出货类，多用于成品）"></a>Shipments （出货类，多用于成品）</h2><table>
+<thead>
+<tr>
+<th align="left">代码</th>
+<th align="left">说明</th>
+<th align="left">备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">STK-CUS</td>
+<td align="left">由仓库出货至客户</td>
+<td align="left">客户出货输入-来自库存</td>
+</tr>
+<tr>
+<td align="left">MFG-CUS</td>
+<td align="left">由工单出货至客户</td>
+<td align="left">客户出货输入-来自工单</td>
+</tr>
+</tbody></table>
+</blockquote>
+<blockquote>
+<h2 id="ShipmeStock-Transactionsnts-（库存交易）"><a href="#ShipmeStock-Transactionsnts-（库存交易）" class="headerlink" title="ShipmeStock Transactionsnts （库存交易）"></a>ShipmeStock Transactionsnts （库存交易）</h2><table>
+<thead>
+<tr>
+<th align="left">代码</th>
+<th align="left">说明</th>
+<th align="left">备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">STK-MTL</td>
+<td align="left">存货到工单物料</td>
+<td align="left">常用于：发料。</td>
+</tr>
+<tr>
+<td align="left">STK-STK</td>
+<td align="left">存货到存货</td>
+<td align="left">仓库转移</td>
+</tr>
+<tr>
+<td align="left">STK-UKN</td>
+<td align="left">存货到其它</td>
+<td align="left">发放杂项物料</td>
+</tr>
+</tbody></table>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Fin</category>
+      </categories>
+      <tags>
+        <tag>erp</tag>
+        <tag>财务</tag>
+        <tag>epicor</tag>
+        <tag>交易</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>校准--库存/在制品/生产成本-总帐自动分录</title>
+    <url>/2022/02/06/FIN/fin20220206/</url>
+    <content><![CDATA[<p><img src="/img/FIN/fin20220206.png" alt="总帐自动会计分录"></p>
+]]></content>
+      <categories>
+        <category>Fin</category>
+      </categories>
+      <tags>
+        <tag>erp</tag>
+        <tag>财务</tag>
+        <tag>epicor</tag>
+        <tag>交易</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>有关单位换算比例与实际差异相关问题</title>
+    <url>/2022/08/03/FIN/fin20220803/</url>
+    <content><![CDATA[<h1 id="有关单位换算比例与实际差异相关问题"><a href="#有关单位换算比例与实际差异相关问题" class="headerlink" title="有关单位换算比例与实际差异相关问题"></a>有关单位换算比例与实际差异相关问题</h1><blockquote>
+<p>针对问题，利用5W2H分析法来解决。<br><img src="/img/FIN/Fin20220707.png" alt="5W2H原因分析法"></p>
+</blockquote>
+<h3 id="Why"><a href="#Why" class="headerlink" title="Why"></a>Why</h3><ul>
+<li>胶板采购单按实际重量收货后，如&gt;标准重，造成PO的我方数量（PCS）未交货数减少,而产生新的物料需求。</li>
+<li>胶板采购单按实际重量收货后，如&lt;标准重，造成PO的我方数量（PCS）未交货数增加,而减少物料需求。</li>
+<li>对应PO产生采购差异。</li>
+<li>Epicor外挂系统 PO检查对比数据<blockquote>
+<p><img src="/img/FIN/bc01.png" alt="PO检查"><br>图①② 采购订单按标准换算比例计算 470PCS&#x3D;84.6847KG<br>图③④  采购收货时，按实际重量对应 100PCS&#x3D;18.65KG  100PCS&#x3D;19KG<br>图⑤⑥  采购收货时，按实际重量，按物料换算比例1KG&#x3D;5.55PCS 计算得 18.65KG&#x3D;103.5075PCS 19KG&#x3D;105.45PCS<br>图⑦⑧  应付发票按实际重量付款，对应收货数量为 18.65KG&#x3D;103.5075PCS 19KG&#x3D;105.45PCS</p>
+</blockquote>
+</li>
+<li>影响物料需求示例<blockquote>
+<p><img src="/img/FIN/bc02.png" alt="PO检查"><br>图①  采购收货实际数量为200PCS，正常采购在途为270PCS ，但时间段是按实际收货公斤数及物料换算比例计算的PCS数来扣除采购单。即470-103.5075-105.45&#x3D;261.04  PCS   （问题产生点）<br>图② 采购数据为470PCS</p>
+</blockquote>
+</li>
+</ul>
+<h3 id="What"><a href="#What" class="headerlink" title="What"></a>What</h3><ul>
+<li>因供应商会按实际重量收货，故需按数据修正物料单位换算比例。尽量控制到±5%。</li>
+</ul>
+<h3 id="Where"><a href="#Where" class="headerlink" title="Where"></a>Where</h3><ul>
+<li>Epicor外挂系统里时间段查询 是按PCS来计算采购未结，可供采购员数据参考。<blockquote>
+<p><img src="/img/FIN/bc03.png" alt="PO检查"><br>图① 采购在途是按采购收货的PCS数量来计算采购未交数。<br>图② 时间段结余供采购员输入新采购数量参考。</p>
+</blockquote>
+</li>
+</ul>
+<h3 id="When"><a href="#When" class="headerlink" title="When"></a>When</h3><ul>
+<li>胶板采购单输入时，需按PCS核算物料需求，如按时间段会存在差异。</li>
+</ul>
+<h3 id="Who"><a href="#Who" class="headerlink" title="Who"></a>Who</h3><ul>
+<li>采购部：采购单输入人员</li>
+<li>工程部：确定胶板实际重量合理性</li>
+<li>胶板部：本厂胶板实际重量合理性</li>
+</ul>
+<h3 id="How"><a href="#How" class="headerlink" title="How"></a>How</h3><ul>
+<li>Epicor 数据库邮件通知胶板收货换算与物料设置换算比例差异。</li>
+</ul>
+<h3 id="How-much"><a href="#How-much" class="headerlink" title="How much"></a>How much</h3><ul>
+<li>季度或者半年一次，针对胶板换算比例，分析换算比例差异原因，按PO收货数据批量调整物料单位换算比例。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Fin</category>
+      </categories>
+      <tags>
+        <tag>财务</tag>
+        <tag>epicor</tag>
+        <tag>工程</tag>
+        <tag>采购</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>珠海龙队骑行记录</title>
+    <url>/2024/07/12/Loongbike/lg20240712/</url>
+    <content><![CDATA[<h1 id="珠海龙队晨骑记录"><a href="#珠海龙队晨骑记录" class="headerlink" title="珠海龙队晨骑记录"></a>珠海龙队晨骑记录</h1><div class="timeline pink"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>2024</p>
+</div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-15</p>
+</div></div><div class='timeline-item-content'><div class="gallery-container" data-type="data" data-button="">
+      <div class="gallery-data">[{"url":"/img/Loongbike/2024071501.jpg","alt":""}]</div>
+      <div class="gallery-items">
+      </div>
+    </div>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-14</p>
+</div></div><div class='timeline-item-content'><div class="gallery-container" data-type="data" data-button="">
+      <div class="gallery-data">[{"url":"/img/Loongbike/2024071401.jpg","alt":""}]</div>
+      <div class="gallery-items">
+      </div>
+    </div>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-13</p>
+</div></div><div class='timeline-item-content'><div class="gallery-container" data-type="data" data-button="">
+      <div class="gallery-data">[{"url":"/img/Loongbike/2024071300.jpg","alt":""},{"url":"/img/Loongbike/2024071301.jpg","alt":""}]</div>
+      <div class="gallery-items">
+      </div>
+    </div>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-12</p>
+</div></div><div class='timeline-item-content'><div class="gallery-container" data-type="data" data-button="">
+      <div class="gallery-data">[{"url":"/img/Loongbike/2024071200.png","alt":""}]</div>
+      <div class="gallery-items">
+      </div>
+    </div>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-11</p>
+</div></div><div class='timeline-item-content'><div class="gallery-container" data-type="data" data-button="">
+      <div class="gallery-data">[{"url":"/img/Loongbike/2024071101.jpg","alt":""}]</div>
+      <div class="gallery-items">
+      </div>
+    </div>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-10</p>
+</div></div><div class='timeline-item-content'><div class="gallery-container" data-type="data" data-button="">
+      <div class="gallery-data">[{"url":"/img/Loongbike/2024071000.jpg","alt":""}]</div>
+      <div class="gallery-items">
+      </div>
+    </div>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-09</p>
+</div></div><div class='timeline-item-content'><div class="gallery-container" data-type="data" data-button="">
+      <div class="gallery-data">[{"url":"/img/Loongbike/2024070900.jpg","alt":""}]</div>
+      <div class="gallery-items">
+      </div>
+    </div>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-05</p>
+</div></div><div class='timeline-item-content'><div class="gallery-container" data-type="data" data-button="">
+      <div class="gallery-data">[{"url":"/img/Loongbike/2024070500.jpg","alt":""}]</div>
+      <div class="gallery-items">
+      </div>
+    </div>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-04</p>
+</div></div><div class='timeline-item-content'><div class="gallery-container" data-type="data" data-button="">
+      <div class="gallery-data">[{"url":"/img/Loongbike/2024070400.jpg","alt":""}]</div>
+      <div class="gallery-items">
+      </div>
+    </div>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-03</p>
+</div></div><div class='timeline-item-content'><div class="gallery-container" data-type="data" data-button="">
+      <div class="gallery-data">[{"url":"/img/Loongbike/2024070300.jpg","alt":""},{"url":"/img/Loongbike/2024070301.jpg","alt":""}]</div>
+      <div class="gallery-items">
+      </div>
+    </div>
+</div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>07-02</p>
+</div></div><div class='timeline-item-content'><div class="gallery-container" data-type="data" data-button="">
+      <div class="gallery-data">[{"url":"/img/Loongbike/2024070201.jpg","alt":""}]</div>
+      <div class="gallery-items">
+      </div>
+    </div>
+</div></div></div>
+
+<!-- 
+<div class="gallery-group-main">
+<figure class="gallery-group">
+  <img class="gallery-group-img no-lightbox" src='/img/Loongbike/20240712/2024071200.png' alt="Group Image Gallery">
+  <figcaption>
+  <div class="gallery-group-name">晨骑横石基</div>
+  <p>美好生活从骑行开始</p>
+  <a href='/img/Loongbike/20240712/'></a>
+  </figcaption>
+  </figure>
+  
+</div> -->
+
+<hr>
+]]></content>
+      <categories>
+        <category>龙队</category>
+      </categories>
+      <tags>
+        <tag>龙队</tag>
+        <tag>横石基</tag>
+        <tag>骑行</tag>
+        <tag>晨骑</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>订单式购买对应采购单交货未齐处置方法</title>
+    <url>/2022/01/10/WF/wf202201/</url>
+    <content><![CDATA[<h1 id="订单式购买对应采购单交货未齐处置方法"><a href="#订单式购买对应采购单交货未齐处置方法" class="headerlink" title="订单式购买对应采购单交货未齐处置方法"></a>订单式购买对应采购单交货未齐处置方法</h1><mark class="hl-label pink">建议外厂销售订单备注采购订单号及行号！</mark> 
+<div class="mermaid-wrap"><pre class="mermaid-src" hidden>
+  graph LR;
+    客户销售订单--&gt;采购订单;
+    采购订单-- 收货 --&gt;仓库401-01;
+    客户销售订单-- 出货 --&gt;仓库401-01;
+    采购订单-- 差数 --&gt;外厂销售订单;
+    外厂销售订单-- 出货 --&gt;仓库401-05;
+    仓库401-05--&gt;采购订单;
+  </pre></div>
+
+
+
+]]></content>
+      <categories>
+        <category>外发</category>
+      </categories>
+      <tags>
+        <tag>erp</tag>
+        <tag>epicor</tag>
+        <tag>PMC</tag>
+        <tag>外发</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>销售订单输入帮助及注意事项</title>
+    <url>/2022/01/10/order/order202201/</url>
+    <content><![CDATA[<h1 id="款号价格输入"><a href="#款号价格输入" class="headerlink" title="款号价格输入"></a>款号价格输入</h1><blockquote>
+<mark class="hl-label default">注：图片数据为测试数据</mark> 
+</blockquote>
+<h2 id="价目表输入"><a href="#价目表输入" class="headerlink" title="价目表输入"></a>价目表输入</h2><blockquote>
+<ol>
+<li>价格表旁边输入框为价目表编号，<mark class="hl-label pink">要求：编号与客户编码尽量一致</mark> 。</li>
+<li>开始日期 销售订单的订单日期须在此日期之后，才能获取报价。</li>
+<li>结束日期 销售订单的订单日期须在此日期之前，才能获取报价。</li>
+<li><mark class="hl-label default">货币必选RMB</mark> 。</li>
+<li>报价单位与物料销售单位一致，不可变更。</li>
+<li>基本单价为出厂价，最终客户单价为外币价。<br><img src="/img/Order/Order20220110-01.png" alt="价目表输入"></li>
+</ol>
+</blockquote>
+<h2 id="价目表批量输入"><a href="#价目表批量输入" class="headerlink" title="价目表批量输入"></a>价目表批量输入</h2><blockquote>
+<ol>
+<li>刷新-&gt;选择自己跟的客户。</li>
+<li>右键导出Excel数据，对比栏位，输入新的款号报价资料。</li>
+<li>选择新的款号数据，右键粘贴导入数据表中。<mark class="hl-label red">因涉及批量数据导入，如有不明，多问确定后再导入</mark> 。
+<img src="/img/Order/Order20220110-02.png" alt="客户价目表"></li>
+</ol>
+</blockquote>
+<hr>
+<h1 id="客户维护-–-增加客户对应价目表"><a href="#客户维护-–-增加客户对应价目表" class="headerlink" title="客户维护 –&gt;增加客户对应价目表"></a>客户维护 –&gt;增加客户对应价目表</h1><blockquote>
+<ol>
+<li>按图点击位置。</li>
+<li>新客户价目表。</li>
+<li>代码输入价目表编号。<br><img src="/img/Order/Order20220110-03.png" alt="客户维护"></li>
+</ol>
+</blockquote>
+<hr>
+<h1 id="销售订单输入注意事项"><a href="#销售订单输入注意事项" class="headerlink" title="销售订单输入注意事项"></a>销售订单输入注意事项</h1><blockquote>
+<mark class="hl-label orange">(订单单价不可以为零，切记！！)</mark> 
+</blockquote>
+<h2 id="界面-汇总"><a href="#界面-汇总" class="headerlink" title="界面-&gt;汇总"></a>界面-&gt;汇总</h2><blockquote>
+<ol>
+<li>PO 为客户的采购单号。</li>
+<li>订单日期  注价目表的开始日期须在此日期之前。</li>
+<li>需求日期及出货日 <mark class="hl-label red">必填字段</mark> 。</li>
+<li>自动开票 此处不可以勾选。<br><img src="/img/Order/Order20220110-04.png" alt="销售订单-汇总"></li>
+</ol>
+</blockquote>
+<h2 id="界面-发货"><a href="#界面-发货" class="headerlink" title="界面-&gt;发货"></a>界面-&gt;发货</h2><blockquote>
+<ol>
+<li>确定发货 必填项。</li>
+<li>直接生产 如本厂生产，默认勾选。</li>
+<li>订单式购买 如外购成品，默认勾选。<br><img src="/img/Order/Order20220110-05.png" alt="销售订单-发货"></li>
+</ol>
+</blockquote>
+<h2 id="订单式购买-对应供应商及PO"><a href="#订单式购买-对应供应商及PO" class="headerlink" title="订单式购买 -&gt;对应供应商及PO"></a>订单式购买 -&gt;对应供应商及PO</h2><blockquote>
+<ol>
+<li>供应商 外购成品供应商，<mark class="hl-label purple">PO只能对应此供应商下单</mark> 。</li>
+<li>PO  对应采购单如输入，将显示单号。</li>
+<li>订单式购买+直接出货。货不回厂，直接由供应商送货到客户。默认由物料主档资料代入。<br><img src="/img/Order/Order20220110-06.png" alt="销售订单-订单式购买"></li>
+</ol>
+</blockquote>
+<hr>
+<h1 id="重整价目表、锁定单价与订单数量等关系"><a href="#重整价目表、锁定单价与订单数量等关系" class="headerlink" title="重整价目表、锁定单价与订单数量等关系"></a>重整价目表、锁定单价与订单数量等关系</h1><h2 id="1-重整价目表-×-锁定单价-×-与报价及数量变更前后变化"><a href="#1-重整价目表-×-锁定单价-×-与报价及数量变更前后变化" class="headerlink" title="1. 重整价目表 × 锁定单价 × 与报价及数量变更前后变化"></a>1. 重整价目表 <kbd>×</kbd> 锁定单价 <kbd>×</kbd> 与报价及数量变更前后变化</h2><blockquote>
+<h3 id="1-1-变更前"><a href="#1-1-变更前" class="headerlink" title="1.1 变更前"></a>1.1 变更前</h3><p><img src="/img/Order/Order20220110-07.png" alt="变更前报价"><br><img src="/img/Order/Order20220110-09.png" alt="前更前销售订单"></p>
+<h3 id="1-2-变更后"><a href="#1-2-变更后" class="headerlink" title="1.2 变更后"></a>1.2 变更后</h3><p><img src="/img/Order/Order20220110-08.png" alt="变更后报价"><br><img src="/img/Order/Order20220110-13.png" alt="前更后销售订单"></p>
+</blockquote>
+<h2 id="2-重整价目表-√-锁定单价-×-与报价及数量变更前后变化"><a href="#2-重整价目表-√-锁定单价-×-与报价及数量变更前后变化" class="headerlink" title="2. 重整价目表 √ 锁定单价 × 与报价及数量变更前后变化"></a>2. 重整价目表 <kbd>√</kbd> 锁定单价 <kbd>×</kbd> 与报价及数量变更前后变化</h2><blockquote>
+<h3 id="2-1-变更前"><a href="#2-1-变更前" class="headerlink" title="2.1 变更前"></a>2.1 变更前</h3><p><img src="/img/Order/Order20220110-07.png" alt="变更前报价"><br><img src="/img/Order/Order20220110-10.png" alt="前更前销售订单"></p>
+<h3 id="2-2-变更后"><a href="#2-2-变更后" class="headerlink" title="2.2 变更后"></a>2.2 变更后</h3><p><img src="/img/Order/Order20220110-08.png" alt="变更后报价"><br><img src="/img/Order/Order20220110-14.png" alt="前更后销售订单"></p>
+</blockquote>
+<h2 id="3-重整价目表-×-锁定单价-√-与报价及数量变更前后变化"><a href="#3-重整价目表-×-锁定单价-√-与报价及数量变更前后变化" class="headerlink" title="3. 重整价目表 × 锁定单价  √ 与报价及数量变更前后变化"></a>3. 重整价目表 <kbd>×</kbd> 锁定单价  <kbd>√</kbd> 与报价及数量变更前后变化</h2><blockquote>
+<h3 id="3-1-变更前"><a href="#3-1-变更前" class="headerlink" title="3.1 变更前"></a>3.1 变更前</h3><p><img src="/img/Order/Order20220110-07.png" alt="变更前报价"><br><img src="/img/Order/Order20220110-11.png" alt="前更前销售订单"></p>
+<h3 id="3-2-变更后"><a href="#3-2-变更后" class="headerlink" title="3.2 变更后"></a>3.2 变更后</h3><p><img src="/img/Order/Order20220110-08.png" alt="变更后报价"><br><img src="/img/Order/Order20220110-15.png" alt="前更后销售订单"></p>
+</blockquote>
+<h2 id="4-重整价目表-√-锁定单价-√-与报价及数量变更前后变化"><a href="#4-重整价目表-√-锁定单价-√-与报价及数量变更前后变化" class="headerlink" title="4. 重整价目表 √ 锁定单价  √ 与报价及数量变更前后变化"></a>4. 重整价目表 <kbd>√</kbd> 锁定单价  <kbd>√</kbd> 与报价及数量变更前后变化</h2><blockquote>
+<h3 id="4-1-变更前"><a href="#4-1-变更前" class="headerlink" title="4.1 变更前"></a>4.1 变更前</h3><p><img src="/img/Order/Order20220110-07.png" alt="变更前报价"><br><img src="/img/Order/Order20220110-12.png" alt="前更前销售订单"></p>
+<h3 id="4-2-变更后"><a href="#4-2-变更后" class="headerlink" title="4.2 变更后"></a>4.2 变更后</h3><p><img src="/img/Order/Order20220110-08.png" alt="变更后报价"><br><img src="/img/Order/Order20220110-16.png" alt="前更后销售订单"></p>
+</blockquote>
+<hr>
+]]></content>
+      <categories>
+        <category>Order</category>
+      </categories>
+      <tags>
+        <tag>erp</tag>
+        <tag>epicor</tag>
+        <tag>sa</tag>
+        <tag>业务部</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>订单式购买的销售订单多出处理办法</title>
+    <url>/2022/01/20/order/order202202/</url>
+    <content><![CDATA[<blockquote>
+<p>针对订单式购买的销售订单，供应商有多送数量，经与客户沟通可以多出货。对应epicor系统处理方式如下</p>
+</blockquote>
+<h1 id="销售订单"><a href="#销售订单" class="headerlink" title="销售订单"></a>销售订单</h1><blockquote>
+<mark class="hl-label pink">销售订单不可以更改原订单行的数量</mark> ，必须新增行，输入对应款号及多出的数量。
+<p><img src="/img/Order/Order202202001.png" alt="销售订单处理"></p>
+</blockquote>
+<h1 id="采购订单"><a href="#采购订单" class="headerlink" title="采购订单"></a>采购订单</h1><blockquote>
+<p>采购订单需在原有订单增加行，输入原有销售订单号及对应的新增行。<mark class="hl-label pink">如采购订单已经审核，需反审核后处理</mark> 。<br><img src="/img/Order/Order202202002.png" alt="采购订单处理"></p>
+</blockquote>
+<h1 id="采购收货及销售出货单输入"><a href="#采购收货及销售出货单输入" class="headerlink" title="采购收货及销售出货单输入"></a>采购收货及销售出货单输入</h1><blockquote>
+<p>采购收货及销售出货单输入方法不变！</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Order</category>
+      </categories>
+      <tags>
+        <tag>erp</tag>
+        <tag>epicor</tag>
+        <tag>sa</tag>
+        <tag>业务部</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Epicor客户资料输入</title>
+    <url>/2022/06/01/order/order202203/</url>
+    <content><![CDATA[<h1 id="Epicor客户资料输入"><a href="#Epicor客户资料输入" class="headerlink" title="Epicor客户资料输入"></a>Epicor客户资料输入</h1><h3 id="客户-明细"><a href="#客户-明细" class="headerlink" title="客户-&gt;明细"></a>客户-&gt;明细</h3><blockquote>
+<ol>
+<li>因多个类型客户，故客户编码规则有多个，请对应类型顺序编码。可点客户<font color=pink><strong>按钮</strong></font>查看。</li>
+<li><font style="background:blue">客户</font>全名。</li>
+<li>类型选择 客户 。</li>
+<li>客户简称。尽量缩小字符，便于公司内部沟通。</li>
+<li>客户具体地址输入。</li>
+<li>因业务部内部分组权限，按组选择自己对应销售地区代码。</li>
+<li>对应组销售人员选择。</li>
+</ol>
+<p><img src="/img/Order/Customer001.png" alt="客户"></p>
+</blockquote>
+<h3 id="客户-帐单"><a href="#客户-帐单" class="headerlink" title="客户-&gt;帐单"></a>客户-&gt;帐单</h3><blockquote>
+<ol>
+<li>货币必选RMB.&gt;</li>
+<li>帐单期限-&gt;条款</li>
+<li>出货条款-&gt;</li>
+<li>运送方法</li>
+</ol>
+<p><img src="/img/Order/Customer002.png" alt="客户"></p>
+</blockquote>
+<h3 id="客户-帐单-替代"><a href="#客户-帐单-替代" class="headerlink" title="客户-&gt;帐单-&gt;替代"></a>客户-&gt;帐单-&gt;替代</h3><blockquote>
+<ol>
+<li>替代付款人-&gt;HKO。</li>
+<li>默认付款人 勾选。</li>
+</ol>
+<p><img src="/img/Order/Customer003.png" alt="客户"></p>
+</blockquote>
+<h3 id="客户-客户币种"><a href="#客户-客户币种" class="headerlink" title="客户-&gt; 客户币种"></a>客户-&gt; 客户币种</h3><blockquote>
+<ol>
+<li>最终客户订单币种 香港公司与客户合同付款币种。</li>
+</ol>
+<p><img src="/img/Order/Customer004.png" alt="客户"></p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Order</category>
+      </categories>
+      <tags>
+        <tag>erp</tag>
+        <tag>epicor</tag>
+        <tag>sa</tag>
+        <tag>业务部</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>学道心经</title>
+    <url>/2022/02/05/Admin/ad20220205/</url>
+    <content><![CDATA[<h3 id="第一章"><a href="#第一章" class="headerlink" title="第一章"></a>第一章</h3><blockquote>
+<p>学之道，贵有恒；心先定，学后成。<br>书不洁，杂念生；坐不正，意已动。<br>耳不偏，目常从；早立规，心自恒。</p>
+</blockquote>
+<h3 id="第二章"><a href="#第二章" class="headerlink" title="第二章"></a>第二章</h3><blockquote>
+<p>父母心，盼成龙；琢大器，须从容。<br>教之切，易有偏；基不正，难承重。<br>学之始，贵习性；初学易，后难成。<br>习性定，规矩生；方有隅，圆有形。</p>
+</blockquote>
+<h3 id="第三章"><a href="#第三章" class="headerlink" title="第三章"></a>第三章</h3><blockquote>
+<p>学之力，在动机；好奇心，求知欲。<br>日观察，问问题；答其问，要仔细。<br>进取心，表现欲；常游戏，争第一。<br>从小起，多鼓励；常启发，重累积。<br>遇挫折，不放弃；磨砺深，始成器。</p>
+</blockquote>
+<h3 id="第四章"><a href="#第四章" class="headerlink" title="第四章"></a>第四章</h3><blockquote>
+<p>学之习，有三程；循序进，学艺精。<br>先预习，疑念生；多提问，理易明。<br>再听课，心神凝；做笔记，要工整。<br>师之言，书重点；己之思，释疑难。<br>后复习，建体系；推原理，重题例。</p>
+</blockquote>
+<h3 id="第五章"><a href="#第五章" class="headerlink" title="第五章"></a>第五章</h3><blockquote>
+<p>学之法，无常形；有规始，无规终。<br>眼有形，耳有声；心常思，手不停。<br>解题易，出题难；变角度，获益丰。<br>繁或难，有路经；一分三，简易生。<br>难记忆，多联想；被动弱，主动强。</p>
+</blockquote>
+<h3 id="第六章"><a href="#第六章" class="headerlink" title="第六章"></a>第六章</h3><blockquote>
+<p>学有感，感有功。<br>首框架，如象形；体系成，为大用。<br>再层次，分类同；条块出，意义清。<br>后逻辑，思因果；善推理，成悟性。<br>语感兴，在朗诵；常动口，意自明。</p>
+</blockquote>
+<h3 id="第七章"><a href="#第七章" class="headerlink" title="第七章"></a>第七章</h3><blockquote>
+<p>学有难，心勿乱；多诵读，题意现。<br>列已知，猜原理；设未知，助逻辑。<br>解之道，分过程；大题化，小题生。<br>自所求，找所需；前后行，逐步成。</p>
+</blockquote>
+<h3 id="第八章"><a href="#第八章" class="headerlink" title="第八章"></a>第八章</h3><blockquote>
+<p>学不前，必有因；曰无志，曰分心。<br>心无力，少意义；曰爱国，曰自尊。<br>学之心，不可分；听音乐，乱本根。<br>心有属，学难专；恋游戏，误长远。<br>苟不明，费光阴；青春逝，岂万金。</p>
+</blockquote>
+<h3 id="第九章"><a href="#第九章" class="headerlink" title="第九章"></a>第九章</h3><blockquote>
+<p>学有规，不可违；拔苗长，木难遂。<br>先知情，次晓义；再学文，后明理。<br>美生爱，为动力；四美者，当牢记。<br>自然一，人际二；科学三，艺术四。<br>一岁起，重情趣；至三岁，授仁义。<br>五岁后，可教文；及七岁，格数理。<br>小神童，大平庸；逾越过，覆辙中。</p>
+</blockquote>
+<h3 id="第十章"><a href="#第十章" class="headerlink" title="第十章"></a>第十章</h3><blockquote>
+<p>学有乐，亦有苦；苦生乐，始感悟。<br>强其心，弱其腹；延其乐，纳其苦。<br>有大爱，曰不仁；谨漠视，慎关注。<br>护子过，损其多；见小错，切莫乐。<br>知荣耀，守暗辱；自然心，若空谷。<br>修自身，可齐家；家和谐，子贤达。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>Admin</category>
+      </categories>
+      <tags>
+        <tag>学习</tag>
+        <tag>学道</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>工单入库超过工单生产数造成库存成本错误的解救办法</title>
+    <url>/2022/07/07/FIN/fin20220707/</url>
+    <content><![CDATA[<h1 id="工单入库超过工单生产数造成库存成本错误的解救办法"><a href="#工单入库超过工单生产数造成库存成本错误的解救办法" class="headerlink" title="工单入库超过工单生产数造成库存成本错误的解救办法"></a>工单入库超过工单生产数造成库存成本错误的解救办法</h1><blockquote>
+<p>针对问题，利用5W2H分析法来解决。<br><img src="/img/FIN/Fin20220707.png" alt="5W2H原因分析法"></p>
+</blockquote>
+<h3 id="Why"><a href="#Why" class="headerlink" title="Why"></a>Why</h3><ul>
+<li>工单入库数超过生产数，成品入库单个成本将降低。</li>
+<li>若入库后，输入了销售出货单，将造成销售成本降低。虚增销售利润！</li>
+<li>需针对入库错误进行更改，核查超出数产生原因。</li>
+</ul>
+<h3 id="What"><a href="#What" class="headerlink" title="What"></a>What</h3><ul>
+<li>发现错误，及时修正错误！</li>
+<li>检讨错误造成原因。</li>
+<li>针对同类错误，制定惩罚措施！</li>
+</ul>
+<h3 id="Where"><a href="#Where" class="headerlink" title="Where"></a>Where</h3><ul>
+<li>解决错误需要配合的部门及步骤如下：<ol>
+<li>财务部 取消对应销售出货行的应收发票。（前提，<strong>如应收发票过帐将无法处理</strong>）</li>
+<li>仓库组 取消销售出货单的<strong>已出货</strong>勾选项。</li>
+<li>业务部 删除对应销售出货行。</li>
+<li>PMC部 成品物料编码 –&gt; 物料类别 –&gt; 负值数量操作 由 <strong>“停止”</strong>更改为 <strong>“无”</strong> </li>
+<li>包装部 按工单原有入库数，<strong>对冲负值入库，冲掉之前入库数</strong>。<strong>切记是全部入库数，日期需为原入库日期</strong>。</li>
+<li>包装部 按实际工单完成数，再入库一次。注意<strong>入库日期为原入库日期</strong>。</li>
+<li>PMC部 呆滞成品如未调整入库，需按财务部要求对应 <strong>“原因代码”</strong>调整数量入库。</li>
+<li>业务部 对应原销售出货单新增一行开出货。</li>
+<li>仓库组 对应销售出货单勾选 <strong>“已出货”</strong>选项。</li>
+<li>财务部 提出出货行做应收发票。</li>
+</ol>
+</li>
+</ul>
+<h3 id="When"><a href="#When" class="headerlink" title="When"></a>When</h3><ul>
+<li>解决问题需当天全部完成，不可拖延。对应成品物料不可有其它交易。</li>
+</ul>
+<h3 id="Who"><a href="#Who" class="headerlink" title="Who"></a>Who</h3><ul>
+<li>财务部 应收会计人员</li>
+<li>业务部 对应客户的跟单员</li>
+<li>包装部 对应客户的入库人员</li>
+<li>仓库组 仓库负责人</li>
+<li>PMC部 部门负责人</li>
+</ul>
+<h3 id="How"><a href="#How" class="headerlink" title="How"></a>How</h3><ul>
+<li>工单入库超数会有对应报表自动每天邮件分发！如有超数，PMC部应根据 <strong>物料交易历史记录</strong>情况邮件主导各部门按流程完成更改！</li>
+</ul>
+<h3 id="How-much"><a href="#How-much" class="headerlink" title="How much"></a>How much</h3><ul>
+<li><p>由PMC部根据实际错误原因提交邮件说明，通知各涉及部门协助配合。</p>
+</li>
+<li><p>由PMC部提交纠正措施，避免问题再次产生。</p>
+</li>
+</ul>
+]]></content>
+      <categories>
+        <category>Fin</category>
+      </categories>
+      <tags>
+        <tag>财务</tag>
+        <tag>epicor</tag>
+        <tag>工单</tag>
+        <tag>工单入库成本</tag>
       </tags>
   </entry>
 </search>
